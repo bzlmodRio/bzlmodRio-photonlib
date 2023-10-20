@@ -113,6 +113,7 @@ def __setup_bzlmodrio_photonlib_cpp_dependencies(mctx):
         build_file_content = cc_library_shared,
         patch_cmds = [
             "install_name_tool -id @rpath/libPhoton.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libapriltag.dylib @rpath/libapriltag.dylib osx/universal/shared/libPhoton.dylib",
             "install_name_tool -change libcameraserver.dylib @rpath/libcameraserver.dylib osx/universal/shared/libPhoton.dylib",
             "install_name_tool -change libcscore.dylib @rpath/libcscore.dylib osx/universal/shared/libPhoton.dylib",
             "install_name_tool -change libntcore.dylib @rpath/libntcore.dylib osx/universal/shared/libPhoton.dylib",

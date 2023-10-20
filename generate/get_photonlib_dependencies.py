@@ -29,7 +29,7 @@ def get_photonlib_dependencies(
         remote_repo="bzlmodRio-allwpilib",
         override_version=allwpilib_version_override,
     )
-    
+
     group = vendordep_dependency(
         "bzlmodrio-photonlib",
         os.path.join(SCRIPT_DIR, f"vendor_dep.json"),
@@ -41,6 +41,7 @@ def get_photonlib_dependencies(
                 artifact_install_name="Photon",
                 deps=[
                     allwpilib_dependency.container.get_cc_dependency("wpilibc-cpp"),
+                    allwpilib_dependency.container.get_cc_dependency("apriltag-cpp"),
                 ],
             ),
         },
