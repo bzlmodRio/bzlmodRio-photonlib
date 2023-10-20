@@ -16,13 +16,6 @@ def get_photonlib_dependencies(
     ni_version_override="2023.3.0",
 ):
     SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-    group = vendordep_dependency(
-        "bzlmodrio-photonlib",
-        os.path.join(SCRIPT_DIR, f"vendor_dep.json"),
-        year=2023,
-        fail_on_hash_miss=False,
-        has_static_libraries=False,
-    )
 
     allwpilib_dependency = ModuleDependency(
         get_allwpilib_dependencies(
@@ -35,6 +28,22 @@ def get_photonlib_dependencies(
         local_rel_folder="../../libraries/bzlmodRio-allwpilib",
         remote_repo="bzlmodRio-allwpilib",
         override_version=allwpilib_version_override,
+    )
+    
+    group = vendordep_dependency(
+        "bzlmodrio-photonlib",
+        os.path.join(SCRIPT_DIR, f"vendor_dep.json"),
+        year=2023,
+        fail_on_hash_miss=False,
+        has_static_libraries=False,
+        install_name_lookup={
+            "PhotonLib-cpp": dict(
+                artifact_install_name="Photon",
+                deps=[
+                    allwpilib_dependency.container.get_cc_dependency("wpilibc-cpp"),
+                ],
+            ),
+        },
     )
     group.add_module_dependency(allwpilib_dependency)
 
