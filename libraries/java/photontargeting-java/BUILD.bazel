@@ -1,0 +1,10 @@
+load("@rules_java//java:defs.bzl", "java_import")
+
+java_import(
+    name = "photontargeting-java",
+    jars = ["@org_photonvision_photontargeting_java//jar:file"],
+    visibility = ["//visibility:public"],
+    deps = [
+        "@bzlmodrio-allwpilib//libraries/java/wpilibj",
+    ],
+)

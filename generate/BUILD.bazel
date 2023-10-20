@@ -1,3 +1,5 @@
+load("@rules_python//python:defs.bzl", "py_binary", "py_library")
+
 py_library(
     name = "get_photonlib_dependencies",
     srcs = ["get_photonlib_dependencies.py"],

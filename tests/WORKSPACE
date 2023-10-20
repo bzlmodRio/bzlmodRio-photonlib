@@ -1,0 +1,77 @@
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+# My repository!
+local_repository(
+    name = "bzlmodrio-photonlib",
+    path = "../",
+)
+
+# Google Test
+http_archive(
+    name = "googletest",
+    sha256 = "8ad598c73ad796e0d8280b082cebd82a630d73e73cd3c70057938a6501bba5d7",
+    strip_prefix = "googletest-1.14.0",
+    urls = ["https://github.com/google/googletest/archive/refs/tags/v1.14.0.tar.gz"],
+)
+
+load("@bzlmodrio-photonlib//private/non_bzlmod_dependencies:download_dependencies.bzl", "download_dependencies")
+
+download_dependencies()
+
+load("@bzlmodrio-photonlib//private/non_bzlmod_dependencies:setup_dependencies.bzl", "get_java_dependenicies", "setup_dependencies")
+
+setup_dependencies()
+
+load("@rules_jvm_external//:defs.bzl", "maven_install")
+
+maven_artifacts, maven_repositories = get_java_dependenicies()
+
+# Add junit
+maven_artifacts += [
+    "org.junit.jupiter:junit-jupiter-api:5.8.2",
+    "org.junit.jupiter:junit-jupiter-params:5.8.2",
+    "org.junit.jupiter:junit-jupiter-engine:5.8.2",
+    "org.junit.platform:junit-platform-commons:1.6.1",
+    "org.junit.platform:junit-platform-console:1.6.1",
+    "org.junit.platform:junit-platform-engine:1.6.1",
+    "org.junit.platform:junit-platform-launcher:1.6.1",
+    "org.junit.platform:junit-platform-suite-api:1.6.1",
+]
+
+maven_install(
+    name = "maven",
+    artifacts = maven_artifacts,
+    repositories = maven_repositories,
+    # maven_install_json = "//build_scripts/bazel/deps:maven_install.json",
+)
+
+#####################
+# Styleguide
+#####################
+
+http_archive(
+    name = "rules_wpi_styleguide",
+    sha256 = "c5c032e8e8b04cdd74d2a637c39e787156cd289d128cd9747b5c8c6d87d4f252",
+    url = "https://github.com/bzlmodRio/rules_wpi_styleguide/releases/download/1.0.0/rules_wpi_styleguide-1.0.0.tar.gz",
+)
+
+load("@rules_wpi_styleguide//dependencies:load_rule_dependencies.bzl", "load_styleguide_rule_dependencies")
+
+load_styleguide_rule_dependencies()
+
+load("@rules_wpi_styleguide//dependencies:load_dependencies.bzl", "load_styleguide_dependencies")
+
+load_styleguide_dependencies()
+
+load("@rules_wpi_styleguide//dependencies:load_transitive_dependencies.bzl", "load_styleguide_transitive_dependencies")
+
+load_styleguide_transitive_dependencies()
+
+load("@rules_wpi_styleguide//dependencies:setup_styleguide.bzl", "setup_styleguide")
+
+setup_styleguide()
+
+load("@rules_wpi_styleguide//dependencies:load_pins.bzl", "load_styleguide_pins")
+
+load_styleguide_pins()
+#####################

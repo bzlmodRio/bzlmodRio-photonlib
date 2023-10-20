@@ -33,9 +33,27 @@ def main():
 
     clean_existing_version(REPO_DIR, force_tests=args.force_tests)
     generate_module_project_files(
-        REPO_DIR, group, mandatory_dependencies=mandatory_dependencies
+        REPO_DIR, group, mandatory_dependencies=mandatory_dependencies,
+        include_windows_arm_compiler=False,
     )
     generate_meta_deps(output_dir, group, force_tests=args.force_tests)
+
+    manual_cleanup(REPO_DIR)
+
+
+def manual_cleanup(repo_dir):
+    # Manual cleanup
+    cleanup_file = os.path.join(
+        repo_dir, "libraries", "cpp", "photonlib-cpp", "BUILD.bazel"
+    )
+    with open(cleanup_file, "r") as f:
+        contents = f.read()
+
+    contents = contents.replace(
+        "@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"
+    )
+    with open(cleanup_file, "w") as f:
+        f.write(contents)
 
 
 if __name__ == "__main__":

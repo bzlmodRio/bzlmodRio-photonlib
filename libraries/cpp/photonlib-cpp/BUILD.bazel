@@ -1,0 +1,18 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+alias(
+    name = "photonlib-cpp",
+    actual = ":shared",
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "shared",
+    linkstatic = 1,
+    visibility = ["//visibility:public"],
+    deps = [
+        "@bzlmodrio-allwpilib//libraries/cpp/apriltag:shared",
+        "@bzlmodrio-allwpilib//libraries/cpp/wpilibc:shared",
+        "@bzlmodrio-photonlib//private/cpp/PhotonLib-cpp:shared",
+    ],
+)
