@@ -111,6 +111,18 @@ def __setup_bzlmodrio_photonlib_cpp_dependencies(mctx):
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2023.4.2/PhotonLib-cpp-v2023.4.2-osxuniversal.zip",
         sha256 = "447f963f148562183966e9f0247c14c8b59f8c94f67e0f33c83baeda3916bfa3",
         build_file_content = cc_library_shared,
+        patch_cmds = [
+            "install_name_tool -id @rpath/libPhoton.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libapriltag.dylib @rpath/libapriltag.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libcameraserver.dylib @rpath/libcameraserver.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libcscore.dylib @rpath/libcscore.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libntcore.dylib @rpath/libntcore.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libwpiHal.dylib @rpath/libwpiHal.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libwpilibc.dylib @rpath/libwpilibc.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libwpimath.dylib @rpath/libwpimath.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libwpinet.dylib @rpath/libwpinet.dylib osx/universal/shared/libPhoton.dylib",
+            "install_name_tool -change libwpiutil.dylib @rpath/libwpiutil.dylib osx/universal/shared/libPhoton.dylib",
+        ],
     )
 
 def setup_legacy_bzlmodrio_photonlib_cpp_dependencies():
