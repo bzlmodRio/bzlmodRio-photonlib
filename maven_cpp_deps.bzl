@@ -80,36 +80,36 @@ def __setup_bzlmodrio_photonlib_cpp_dependencies(mctx):
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_headers",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-1/PhotonLib-cpp-v2024.1.1-beta-1-headers.zip",
-        sha256 = "6f1879ceb5ede30fa6ca72dbd464c4a2275a19bf2986594b36dc8265418dea11",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-3/PhotonLib-cpp-v2024.1.1-beta-3-headers.zip",
+        sha256 = "af6db258b3fd1eaee5c95c43d2f98172b99d992d4a7b11173ed935663584526b",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_windowsx86-64",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-1/PhotonLib-cpp-v2024.1.1-beta-1-windowsx86-64.zip",
-        sha256 = "93833c257c8c90add1d129f1350984bc79836a7d558d2d98dd5694f76c45d140",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-3/PhotonLib-cpp-v2024.1.1-beta-3-windowsx86-64.zip",
+        sha256 = "b526f4bbf3a58a50945330afffd633525ac2982938d23cd14ce20d30c39c4287",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_linuxathena",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-1/PhotonLib-cpp-v2024.1.1-beta-1-linuxathena.zip",
-        sha256 = "22160a325ba2ec2f2db0617732905f4e5216628579f4d572d86feaf9b6e57155",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-3/PhotonLib-cpp-v2024.1.1-beta-3-linuxathena.zip",
+        sha256 = "03608886a1ff21b12275730199ba322aabf5a3dff9a0e36e31d8332d71045ac9",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_linuxx86-64",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-1/PhotonLib-cpp-v2024.1.1-beta-1-linuxx86-64.zip",
-        sha256 = "4e3e24d198404dba0680caf85960675ed026575d57cb01f60f39111024e202f6",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-3/PhotonLib-cpp-v2024.1.1-beta-3-linuxx86-64.zip",
+        sha256 = "fe7a494dc565c793d36b7d8f7c728a3989e43ffd98421fbfe6f02fdc0a477437",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_osxuniversal",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-1/PhotonLib-cpp-v2024.1.1-beta-1-osxuniversal.zip",
-        sha256 = "678660be9cb022d1d0f0f23d3b261d9c4b88f4164f723a5e32f828dd8a9d8682",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/PhotonLib-cpp/v2024.1.1-beta-3/PhotonLib-cpp-v2024.1.1-beta-3-osxuniversal.zip",
+        sha256 = "702b6efec22e5f84cb626d2e40ad8440f586e8b46bf8cba0b0f59a5c9e4d2558",
         build_file_content = cc_library_shared,
         patch_cmds = [
             "install_name_tool -id @rpath/libPhoton.dylib osx/universal/shared/libPhoton.dylib",
