@@ -1,0 +1,27 @@
+module(
+    name = "bzlmodrio-photonlib-gentool",
+)
+
+bazel_dep(name = "rules_python", version = "0.21.0")
+bazel_dep(name = "bzlmodrio-gentool", version = "")
+bazel_dep(name = "bzlmodrio-allwpilib-gentool", version = "")
+
+local_path_override(
+    module_name = "bzlmodrio-gentool",
+    path = "../../../gentool",
+)
+
+local_path_override(
+    module_name = "bzlmodrio-allwpilib-gentool",
+    path = "../../bzlmodRio-allwpilib/generate",
+)
+
+local_path_override(
+    module_name = "bzlmodrio-opencv-gentool",
+    path = "../../bzlmodRio-opencv/generate",
+)
+
+local_path_override(
+    module_name = "bzlmodrio-ni-gentool",
+    path = "../../bzlmodRio-ni/generate",
+)
