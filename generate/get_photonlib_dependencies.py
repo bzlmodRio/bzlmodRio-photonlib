@@ -11,9 +11,9 @@ def get_photonlib_dependencies(
     use_local_allwpilib=False,
     use_local_opencv=False,
     use_local_ni=True,
-    allwpilib_version_override="2024.1.1-beta-1",
+    allwpilib_version_override="2024.1.1-beta-4",
     opencv_version_override="2024.4.8.0-1",
-    ni_version_override="2024.1.1",
+    ni_version_override="2024.2.0",
 ):
     SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -74,6 +74,8 @@ def get_photonlib_dependencies(
         group_id=f"org.photonvision",
         deps=[
             "wpilibj-java",
+            "ntcore-java",
+            "apriltag-java",
             "photontargeting-java",
         ],
     )
