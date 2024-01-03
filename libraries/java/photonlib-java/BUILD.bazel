@@ -5,6 +5,8 @@ java_import(
     jars = ["@org_photonvision_photonlib_java//jar:file"],
     visibility = ["//visibility:public"],
     deps = [
+        "@bzlmodrio-allwpilib//libraries/java/apriltag",
+        "@bzlmodrio-allwpilib//libraries/java/ntcore",
         "@bzlmodrio-allwpilib//libraries/java/wpilibj",
         "@bzlmodrio-photonlib//libraries/java/photontargeting-java",
     ],

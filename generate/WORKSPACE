@@ -1,4 +1,4 @@
-workspace(name = "bzlmodrio_photonlib_gentool")
+workspace(name = "bzlmodrio-photonlib-gentool")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
@@ -20,6 +20,11 @@ local_repository(
 )
 
 local_repository(
+    name = "bzlmodrio-allwpilib-gentool",
+    path = "../../bzlmodRio-allwpilib/generate",
+)
+
+local_repository(
     name = "bzlmodrio-opencv-gentool",
     path = "../../bzlmodRio-opencv/generate",
 )
@@ -27,11 +32,6 @@ local_repository(
 local_repository(
     name = "bzlmodrio-ni-gentool",
     path = "../../bzlmodRio-ni/generate",
-)
-
-local_repository(
-    name = "bzlmodrio-allwpilib-gentool",
-    path = "../../bzlmodRio-allwpilib/generate",
 )
 
 load("@rules_python//python:pip.bzl", "pip_parse")
