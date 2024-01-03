@@ -33,7 +33,6 @@ def get_photonlib_dependencies(
     group = vendordep_dependency(
         "bzlmodrio-photonlib",
         os.path.join(SCRIPT_DIR, f"vendor_dep.json"),
-        year=2023,
         fail_on_hash_miss=False,
         has_static_libraries=False,
         install_name_lookup={

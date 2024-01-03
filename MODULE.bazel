@@ -1,7 +1,7 @@
 module(
     name = "bzlmodrio-photonlib",
     version = "v2024.1.1-beta-3.2",
-    compatibility_level = 2023,
+    compatibility_level = 2024,
 )
 
 bazel_dep(name = "platforms", version = "0.0.7")
