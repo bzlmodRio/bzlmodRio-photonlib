@@ -2,9 +2,11 @@ module(
     name = "bzlmodrio-photonlib-gentool",
 )
 
-bazel_dep(name = "rules_python", version = "0.21.0")
+bazel_dep(name = "rules_python", version = "0.24.0")
 bazel_dep(name = "bzlmodrio-gentool", version = "")
 bazel_dep(name = "bzlmodrio-allwpilib-gentool", version = "")
+bazel_dep(name = "bzlmodrio-opencv-gentool", version = "")
+bazel_dep(name = "bzlmodrio-ni-gentool", version = "")
 
 local_path_override(
     module_name = "bzlmodrio-gentool",
