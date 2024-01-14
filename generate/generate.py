@@ -54,17 +54,28 @@ def manual_cleanup(repo_dir):
 
         with open(filename, "w") as f:
             f.write(new_contents)
-            
+
     # Manual cleanup
     cleanup_file = os.path.join(
         repo_dir, "libraries", "cpp", "photonlib-cpp", "BUILD.bazel"
     )
-    helper(cleanup_file, lambda x: x.replace("@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"))
-    
+    helper(
+        cleanup_file,
+        lambda x: x.replace(
+            "@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"
+        ),
+    )
+
     cleanup_file = os.path.join(
         repo_dir, "libraries", "cpp", "photontargeting-cpp", "BUILD.bazel"
     )
-    helper(cleanup_file, lambda x: x.replace("@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"))
+    helper(
+        cleanup_file,
+        lambda x: x.replace(
+            "@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"
+        ),
+    )
+
 
 if __name__ == "__main__":
     main()
