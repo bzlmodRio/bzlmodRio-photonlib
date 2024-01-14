@@ -1,6 +1,9 @@
 
+#include <photon/targeting/PhotonPipelineResult.h>
+
 #include "gtest/gtest.h"
 
-TEST(BasicTest, BasicTest) {
-    EXPECT_TRUE(false);
+TEST(BasicTest, Basic) {
+  photon::PhotonPipelineResult result;
+  EXPECT_TRUE(true);
 }
