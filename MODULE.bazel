@@ -1,6 +1,6 @@
 module(
     name = "bzlmodrio-photonlib",
-    version = "v2024.1.1-beta-3.2",
+    version = "v2024.1.4",
     compatibility_level = 2024,
 )
 
@@ -9,9 +9,9 @@ bazel_dep(name = "rules_cc", version = "0.0.9")
 bazel_dep(name = "rules_java", version = "6.4.0")
 bazel_dep(name = "rules_bazelrio", version = "0.0.14")
 bazel_dep(name = "rules_bzlmodrio_toolchains", version = "2024-1")
-bazel_dep(name = "bzlmodrio-allwpilib", version = "2024.1.1-beta-4")
+bazel_dep(name = "bzlmodrio-allwpilib", version = "2024.1.1")
 bazel_dep(name = "bzlmodrio-opencv", version = "2024.4.8.0-1")
-bazel_dep(name = "bzlmodrio-ni", version = "2024.2.0")
+bazel_dep(name = "bzlmodrio-ni", version = "2024.2.1")
 
 setup_bzlmodrio_photonlib_cpp_dependencies = use_extension("//:maven_cpp_deps.bzl", "setup_bzlmodrio_photonlib_cpp_dependencies")
 use_repo(
@@ -21,6 +21,11 @@ use_repo(
     "bazelrio_org_photonvision_photonlib-cpp_linuxx86-64",
     "bazelrio_org_photonvision_photonlib-cpp_osxuniversal",
     "bazelrio_org_photonvision_photonlib-cpp_windowsx86-64",
+    "bazelrio_org_photonvision_photontargeting-cpp_headers",
+    "bazelrio_org_photonvision_photontargeting-cpp_linuxathena",
+    "bazelrio_org_photonvision_photontargeting-cpp_linuxx86-64",
+    "bazelrio_org_photonvision_photontargeting-cpp_osxuniversal",
+    "bazelrio_org_photonvision_photontargeting-cpp_windowsx86-64",
 )
 
 setup_bzlmodrio_photonlib_java_dependencies = use_extension("//:maven_java_deps.bzl", "setup_bzlmodrio_photonlib_java_dependencies")
