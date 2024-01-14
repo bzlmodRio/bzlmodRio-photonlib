@@ -11,6 +11,7 @@ cc_library(
     linkstatic = 1,
     visibility = ["//visibility:public"],
     deps = [
+        "@bzlmodrio-allwpilib//libraries/cpp/apriltag:shared",
         "@bzlmodrio-allwpilib//libraries/cpp/wpilibc:shared",
         "@bzlmodrio-photonlib//private/cpp/photontargeting-cpp:shared",
     ],

@@ -37,7 +37,15 @@ def get_photonlib_dependencies(
         has_static_libraries=False,
         install_name_lookup={
             "photonlib-cpp": dict(
-                artifact_install_name="Photon",
+                artifact_install_name="photonlib",
+                deps=[
+                    "photontargeting-cpp",
+                    allwpilib_dependency.container.get_cc_dependency("wpilibc-cpp"),
+                    allwpilib_dependency.container.get_cc_dependency("apriltag-cpp"),
+                ],
+            ),
+            "photontargeting-cpp": dict(
+                artifact_install_name="photontargeting",
                 deps=[
                     allwpilib_dependency.container.get_cc_dependency("wpilibc-cpp"),
                     allwpilib_dependency.container.get_cc_dependency("apriltag-cpp"),
@@ -52,6 +60,7 @@ def get_photonlib_dependencies(
         deps=[
             "photontargeting-cpp",
             "wpilibc-cpp",
+            "apriltag-cpp",
         ],
         platform_deps={},
         jni_deps={
