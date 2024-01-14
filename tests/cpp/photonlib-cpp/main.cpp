@@ -1,9 +1,9 @@
 
-#include <photonlib/PhotonCamera.h>
+#include <photon/PhotonCamera.h>
 
 #include <iostream>
 
 int main() {
-  photonlib::PhotonCamera camera{"photonvision"};
+  photon::PhotonCamera camera{"photonvision"};
   return 0;
 }

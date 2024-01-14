@@ -1,7 +1,7 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 alias(
-    name = "photonlib-cpp",
+    name = "photontargeting-cpp",
     actual = ":shared",
     visibility = ["//visibility:public"],
 )
@@ -13,7 +13,6 @@ cc_library(
     deps = [
         "@bzlmodrio-allwpilib//libraries/cpp/apriltag:shared",
         "@bzlmodrio-allwpilib//libraries/cpp/wpilibc:shared",
-        "@bzlmodrio-photonlib//private/cpp/photonlib-cpp:shared",
         "@bzlmodrio-photonlib//private/cpp/photontargeting-cpp:shared",
     ],
 )
