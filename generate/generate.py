@@ -44,19 +44,27 @@ def main():
 
 
 def manual_cleanup(repo_dir):
+    def helper(filename, callback):
+        with open(filename, "r") as f:
+            contents = f.read()
+
+        new_contents = callback(contents)
+        if new_contents == contents:
+            raise Exception("Nothing was replaced!")
+
+        with open(filename, "w") as f:
+            f.write(new_contents)
+            
     # Manual cleanup
     cleanup_file = os.path.join(
         repo_dir, "libraries", "cpp", "photonlib-cpp", "BUILD.bazel"
     )
-    with open(cleanup_file, "r") as f:
-        contents = f.read()
-
-    contents = contents.replace(
-        "@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"
+    helper(cleanup_file, lambda x: x.replace("@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"))
+    
+    cleanup_file = os.path.join(
+        repo_dir, "libraries", "cpp", "photontargeting-cpp", "BUILD.bazel"
     )
-    with open(cleanup_file, "w") as f:
-        f.write(contents)
-
+    helper(cleanup_file, lambda x: x.replace("@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"))
 
 if __name__ == "__main__":
     main()
