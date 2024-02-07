@@ -13,7 +13,7 @@
     "compatibilityMode": "ERROR"
   },
   "localOverrideHashes": {
-    "bzlmodrio-photonlib": "90ec21e377ed7562e397d3f01d1b363fc3d7323c468a487a4386ce6217739d9d",
+    "bzlmodrio-photonlib": "957c4d7714c5dbeae6d12fab10e96b3a22929a3fad3af802d743ad630d07da41",
     "bazel_tools": "0cc38516259ab87144b82461dd874e139f093d8e356667c3a3c5a52441ac448f"
   },
   "moduleDepGraph": {
@@ -90,7 +90,7 @@
     },
     "bzlmodrio-photonlib@_": {
       "name": "bzlmodrio-photonlib",
-      "version": "v2024.2.3",
+      "version": "v2024.2.4",
       "key": "bzlmodrio-photonlib@_",
       "repoName": "bzlmodrio-photonlib",
       "executionPlatformsToRegister": [],
@@ -7554,7 +7554,7 @@
     },
     "@bzlmodrio-photonlib~override//:maven_cpp_deps.bzl%setup_bzlmodrio_photonlib_cpp_dependencies": {
       "general": {
-        "bzlTransitiveDigest": "6e/IXMNGZdpN9akp+9fOvG1jU1BX79s52Gsr98UMRoI=",
+        "bzlTransitiveDigest": "u6EtPna1os0USaKsHY1Dip1ajDJQVqAvoF/BuAV7+oA=",
         "accumulatedFileDigests": {},
         "envVariables": {},
         "generatedRepoSpecs": {
@@ -7563,8 +7563,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photonlib-cpp_headers",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.3/photonlib-cpp-v2024.2.3-headers.zip",
-              "sha256": "721b53d895c4cc5540eb728f8ced9f200e5ea20d15ade6a958fc74864154d14c",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.4/photonlib-cpp-v2024.2.4-headers.zip",
+              "sha256": "fa74b564d7b92f25dfccb0a48d4dd83b12ec4020476e011572faf2ce6aaf157f",
               "build_file_content": "cc_library(\n    name = \"headers\",\n    hdrs = glob([\"**\"]),\n    includes = [\".\"],\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -7573,8 +7573,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photontargeting-cpp_headers",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.3/photontargeting-cpp-v2024.2.3-headers.zip",
-              "sha256": "c4937dce282ad1e42b11b1587ccb9a371b8a1627d96c9aed3103fc9b63db7eba",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.4/photontargeting-cpp-v2024.2.4-headers.zip",
+              "sha256": "f05e370dd941303293b117296449eac1022266cedcbf010068179c6e74153f5c",
               "build_file_content": "cc_library(\n    name = \"headers\",\n    hdrs = glob([\"**\"]),\n    includes = [\".\"],\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -7583,8 +7583,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photontargeting-cpp_osxuniversal",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.3/photontargeting-cpp-v2024.2.3-osxuniversal.zip",
-              "sha256": "f44cd4b1c510614426d764f1cc6c0feb8d3df3ba8031f880d69d593577ecd2dd",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.4/photontargeting-cpp-v2024.2.4-osxuniversal.zip",
+              "sha256": "e68e74d981800958b1a48adb486f6566431a2f0c57b6714c92fefad2565b99f8",
               "build_file_content": "\nJNI_PATTERN=[\n    \"**/*jni.dll\",\n    \"**/*jni.so*\",\n    \"**/*jni.dylib\",\n    \"**/*_java*.dll\",\n    \"**/lib*_java*.dylib\",\n    \"**/lib*_java*.so\",\n]\n\nstatic_srcs = glob([\n        \"**/*.lib\",\n        \"**/*.a\"\n    ],\n    exclude=[\"**/*jni.lib\"]\n)\nshared_srcs = glob([\n        \"**/*.dll\",\n        \"**/*.so*\",\n        \"**/*.dylib\",\n    ],\n    exclude=JNI_PATTERN + [\"**/*.so.debug\"]\n)\nshared_jni_srcs = glob(JNI_PATTERN, exclude=[\"**/*.so.debug\"])\n\nfilegroup(\n    name = \"static_libs\",\n    srcs = static_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_libs\",\n    srcs = shared_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_jni_libs\",\n    srcs = shared_jni_srcs,\n    visibility = [\"//visibility:public\"],\n)\n",
               "patch_cmds": [
                 "install_name_tool -id @rpath/libphotontargeting.dylib osx/universal/shared/libphotontargeting.dylib",
@@ -7605,8 +7605,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photonlib-cpp_linuxx86-64",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.3/photonlib-cpp-v2024.2.3-linuxx86-64.zip",
-              "sha256": "31753001ee7fa28049a40516c608ad7a76a0e7a167c0033ca989113d4e7c9c26",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.4/photonlib-cpp-v2024.2.4-linuxx86-64.zip",
+              "sha256": "2241e5be26922975b71549af7822cf5432c660827164cff562330dd215123b6b",
               "build_file_content": "\nJNI_PATTERN=[\n    \"**/*jni.dll\",\n    \"**/*jni.so*\",\n    \"**/*jni.dylib\",\n    \"**/*_java*.dll\",\n    \"**/lib*_java*.dylib\",\n    \"**/lib*_java*.so\",\n]\n\nstatic_srcs = glob([\n        \"**/*.lib\",\n        \"**/*.a\"\n    ],\n    exclude=[\"**/*jni.lib\"]\n)\nshared_srcs = glob([\n        \"**/*.dll\",\n        \"**/*.so*\",\n        \"**/*.dylib\",\n    ],\n    exclude=JNI_PATTERN + [\"**/*.so.debug\"]\n)\nshared_jni_srcs = glob(JNI_PATTERN, exclude=[\"**/*.so.debug\"])\n\nfilegroup(\n    name = \"static_libs\",\n    srcs = static_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_libs\",\n    srcs = shared_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_jni_libs\",\n    srcs = shared_jni_srcs,\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -7615,8 +7615,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photontargeting-cpp_windowsx86-64",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.3/photontargeting-cpp-v2024.2.3-windowsx86-64.zip",
-              "sha256": "54b34f31916e38db5366b5c3ff10889236f068a20fd35f1830aee8ed2dc4b311",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.4/photontargeting-cpp-v2024.2.4-windowsx86-64.zip",
+              "sha256": "f81e4af964f70d12193581ba76492072f39db8bc0806d183ab5eaf5820955c44",
               "build_file_content": "\nJNI_PATTERN=[\n    \"**/*jni.dll\",\n    \"**/*jni.so*\",\n    \"**/*jni.dylib\",\n    \"**/*_java*.dll\",\n    \"**/lib*_java*.dylib\",\n    \"**/lib*_java*.so\",\n]\n\nstatic_srcs = glob([\n        \"**/*.lib\",\n        \"**/*.a\"\n    ],\n    exclude=[\"**/*jni.lib\"]\n)\nshared_srcs = glob([\n        \"**/*.dll\",\n        \"**/*.so*\",\n        \"**/*.dylib\",\n    ],\n    exclude=JNI_PATTERN + [\"**/*.so.debug\"]\n)\nshared_jni_srcs = glob(JNI_PATTERN, exclude=[\"**/*.so.debug\"])\n\nfilegroup(\n    name = \"static_libs\",\n    srcs = static_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_libs\",\n    srcs = shared_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_jni_libs\",\n    srcs = shared_jni_srcs,\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -7625,8 +7625,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photontargeting-cpp_linuxathena",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.3/photontargeting-cpp-v2024.2.3-linuxathena.zip",
-              "sha256": "253fe6fa7a3a78c493b799cdb1e12e07b9c22e2d7c2387ac35be34dda302e7a7",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.4/photontargeting-cpp-v2024.2.4-linuxathena.zip",
+              "sha256": "2437ddfa417460786ced9337588291305e81f2092edea13e69c2c32f61a8ad30",
               "build_file_content": "\nJNI_PATTERN=[\n    \"**/*jni.dll\",\n    \"**/*jni.so*\",\n    \"**/*jni.dylib\",\n    \"**/*_java*.dll\",\n    \"**/lib*_java*.dylib\",\n    \"**/lib*_java*.so\",\n]\n\nstatic_srcs = glob([\n        \"**/*.lib\",\n        \"**/*.a\"\n    ],\n    exclude=[\"**/*jni.lib\"]\n)\nshared_srcs = glob([\n        \"**/*.dll\",\n        \"**/*.so*\",\n        \"**/*.dylib\",\n    ],\n    exclude=JNI_PATTERN + [\"**/*.so.debug\"]\n)\nshared_jni_srcs = glob(JNI_PATTERN, exclude=[\"**/*.so.debug\"])\n\nfilegroup(\n    name = \"static_libs\",\n    srcs = static_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_libs\",\n    srcs = shared_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_jni_libs\",\n    srcs = shared_jni_srcs,\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -7635,8 +7635,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photonlib-cpp_windowsx86-64",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.3/photonlib-cpp-v2024.2.3-windowsx86-64.zip",
-              "sha256": "dcbb097ce3fb59960f8ad9222cdb5b6e87f5e68bc537de1b62d3b96a309500ea",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.4/photonlib-cpp-v2024.2.4-windowsx86-64.zip",
+              "sha256": "9e879c4d746a6ccf0193d6fe246928c447aa7c8910f8d2dd808de801a07fdf29",
               "build_file_content": "\nJNI_PATTERN=[\n    \"**/*jni.dll\",\n    \"**/*jni.so*\",\n    \"**/*jni.dylib\",\n    \"**/*_java*.dll\",\n    \"**/lib*_java*.dylib\",\n    \"**/lib*_java*.so\",\n]\n\nstatic_srcs = glob([\n        \"**/*.lib\",\n        \"**/*.a\"\n    ],\n    exclude=[\"**/*jni.lib\"]\n)\nshared_srcs = glob([\n        \"**/*.dll\",\n        \"**/*.so*\",\n        \"**/*.dylib\",\n    ],\n    exclude=JNI_PATTERN + [\"**/*.so.debug\"]\n)\nshared_jni_srcs = glob(JNI_PATTERN, exclude=[\"**/*.so.debug\"])\n\nfilegroup(\n    name = \"static_libs\",\n    srcs = static_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_libs\",\n    srcs = shared_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_jni_libs\",\n    srcs = shared_jni_srcs,\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -7645,8 +7645,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photonlib-cpp_osxuniversal",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.3/photonlib-cpp-v2024.2.3-osxuniversal.zip",
-              "sha256": "95fd9abe902dd1ac2962ece76cbcced4db29481e14e5f53e66af52142d2dbf3e",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.4/photonlib-cpp-v2024.2.4-osxuniversal.zip",
+              "sha256": "ebe67b2694ec53a482b817b8f48c26e7518662b6e45988d1c1a72eb0d33c89cd",
               "build_file_content": "\nJNI_PATTERN=[\n    \"**/*jni.dll\",\n    \"**/*jni.so*\",\n    \"**/*jni.dylib\",\n    \"**/*_java*.dll\",\n    \"**/lib*_java*.dylib\",\n    \"**/lib*_java*.so\",\n]\n\nstatic_srcs = glob([\n        \"**/*.lib\",\n        \"**/*.a\"\n    ],\n    exclude=[\"**/*jni.lib\"]\n)\nshared_srcs = glob([\n        \"**/*.dll\",\n        \"**/*.so*\",\n        \"**/*.dylib\",\n    ],\n    exclude=JNI_PATTERN + [\"**/*.so.debug\"]\n)\nshared_jni_srcs = glob(JNI_PATTERN, exclude=[\"**/*.so.debug\"])\n\nfilegroup(\n    name = \"static_libs\",\n    srcs = static_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_libs\",\n    srcs = shared_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_jni_libs\",\n    srcs = shared_jni_srcs,\n    visibility = [\"//visibility:public\"],\n)\n",
               "patch_cmds": [
                 "install_name_tool -id @rpath/libphotonlib.dylib osx/universal/shared/libphotonlib.dylib",
@@ -7668,8 +7668,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photonlib-cpp_linuxathena",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.3/photonlib-cpp-v2024.2.3-linuxathena.zip",
-              "sha256": "382f41224c709fd16321e2016fbbf43831dc4d4b5af166c231622707db857c14",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.4/photonlib-cpp-v2024.2.4-linuxathena.zip",
+              "sha256": "92c5d9852d80c989121ab1fbe18f4d006cce734b698cc85c4ab7fee98c91be00",
               "build_file_content": "\nJNI_PATTERN=[\n    \"**/*jni.dll\",\n    \"**/*jni.so*\",\n    \"**/*jni.dylib\",\n    \"**/*_java*.dll\",\n    \"**/lib*_java*.dylib\",\n    \"**/lib*_java*.so\",\n]\n\nstatic_srcs = glob([\n        \"**/*.lib\",\n        \"**/*.a\"\n    ],\n    exclude=[\"**/*jni.lib\"]\n)\nshared_srcs = glob([\n        \"**/*.dll\",\n        \"**/*.so*\",\n        \"**/*.dylib\",\n    ],\n    exclude=JNI_PATTERN + [\"**/*.so.debug\"]\n)\nshared_jni_srcs = glob(JNI_PATTERN, exclude=[\"**/*.so.debug\"])\n\nfilegroup(\n    name = \"static_libs\",\n    srcs = static_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_libs\",\n    srcs = shared_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_jni_libs\",\n    srcs = shared_jni_srcs,\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -7678,8 +7678,8 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_cpp_dependencies~bazelrio_org_photonvision_photontargeting-cpp_linuxx86-64",
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.3/photontargeting-cpp-v2024.2.3-linuxx86-64.zip",
-              "sha256": "5626dcd5f15e04bbdf433561d07618624d3c77298cc944ae0317ab870f9aa921",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.4/photontargeting-cpp-v2024.2.4-linuxx86-64.zip",
+              "sha256": "c9045f21168a9feba0c983e8c64682d943a3def0005a67a25dfa25c31dc2c7cd",
               "build_file_content": "\nJNI_PATTERN=[\n    \"**/*jni.dll\",\n    \"**/*jni.so*\",\n    \"**/*jni.dylib\",\n    \"**/*_java*.dll\",\n    \"**/lib*_java*.dylib\",\n    \"**/lib*_java*.so\",\n]\n\nstatic_srcs = glob([\n        \"**/*.lib\",\n        \"**/*.a\"\n    ],\n    exclude=[\"**/*jni.lib\"]\n)\nshared_srcs = glob([\n        \"**/*.dll\",\n        \"**/*.so*\",\n        \"**/*.dylib\",\n    ],\n    exclude=JNI_PATTERN + [\"**/*.so.debug\"]\n)\nshared_jni_srcs = glob(JNI_PATTERN, exclude=[\"**/*.so.debug\"])\n\nfilegroup(\n    name = \"static_libs\",\n    srcs = static_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_libs\",\n    srcs = shared_srcs,\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"shared_jni_libs\",\n    srcs = shared_jni_srcs,\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           }
@@ -7688,7 +7688,7 @@
     },
     "@bzlmodrio-photonlib~override//:maven_java_deps.bzl%setup_bzlmodrio_photonlib_java_dependencies": {
       "general": {
-        "bzlTransitiveDigest": "UgeVcDJORnH6WA0EceFi5VkC+xEFSJXng2A/dA8e6Mg=",
+        "bzlTransitiveDigest": "QRT8EHKChcVRgEGcypIlDVYtNrF5mqlMFOyfpTwSvJQ=",
         "accumulatedFileDigests": {},
         "envVariables": {},
         "generatedRepoSpecs": {
@@ -7697,17 +7697,17 @@
             "ruleClassName": "jvm_import_external",
             "attributes": {
               "artifact_urls": [
-                "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-java/v2024.2.3/photonlib-java-v2024.2.3.jar"
+                "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-java/v2024.2.4/photonlib-java-v2024.2.4.jar"
               ],
               "srcjar_urls": [],
-              "canonical_id": "org.photonvision:photonlib-java:v2024.2.3",
+              "canonical_id": "org.photonvision:photonlib-java:v2024.2.4",
               "rule_name": "java_import",
               "rule_load": "load(\"@rules_java//java:defs.bzl\", \"java_import\")",
               "tags": [
-                "maven_coordinates=org.photonvision:photonlib-java:v2024.2.3"
+                "maven_coordinates=org.photonvision:photonlib-java:v2024.2.4"
               ],
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_java_dependencies~org_photonvision_photonlib_java",
-              "artifact_sha256": "52c56fde6eb0c444afda264f084cc00e5f4c800cdfc4985628aad70a49404c67"
+              "artifact_sha256": "c483b9dd01c47d8c5fbc6e562636e342abbe7d3cb16399e58b687c8fa1d8270d"
             }
           },
           "org_photonvision_photontargeting_java": {
@@ -7715,17 +7715,17 @@
             "ruleClassName": "jvm_import_external",
             "attributes": {
               "artifact_urls": [
-                "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-java/v2024.2.3/photontargeting-java-v2024.2.3.jar"
+                "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-java/v2024.2.4/photontargeting-java-v2024.2.4.jar"
               ],
               "srcjar_urls": [],
-              "canonical_id": "org.photonvision:photontargeting-java:v2024.2.3",
+              "canonical_id": "org.photonvision:photontargeting-java:v2024.2.4",
               "rule_name": "java_import",
               "rule_load": "load(\"@rules_java//java:defs.bzl\", \"java_import\")",
               "tags": [
-                "maven_coordinates=org.photonvision:photontargeting-java:v2024.2.3"
+                "maven_coordinates=org.photonvision:photontargeting-java:v2024.2.4"
               ],
               "name": "bzlmodrio-photonlib~override~setup_bzlmodrio_photonlib_java_dependencies~org_photonvision_photontargeting_java",
-              "artifact_sha256": "39187a1c5db9297941f803cd90cf80df8adbc736fd46b890f0bee8eb60013b7b"
+              "artifact_sha256": "d1aed5cd8ffad0d0c9831afb794fb4f6fc0e29229a60534acff80b351ac57c14"
             }
           }
         }
