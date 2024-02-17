@@ -80,36 +80,36 @@ def __setup_bzlmodrio_photonlib_cpp_dependencies(mctx):
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_headers",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.5/photonlib-cpp-v2024.2.5-headers.zip",
-        sha256 = "db2c4ccfe184cf987c394c81547bfde1f941c72648630bacff5ac01dbe656a87",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.6/photonlib-cpp-v2024.2.6-headers.zip",
+        sha256 = "3ee4077d4c47a112aa3e2c5aa86958f92eb759b91b8fa98dd48f023de3ab662e",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_windowsx86-64",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.5/photonlib-cpp-v2024.2.5-windowsx86-64.zip",
-        sha256 = "470ed725bd4d8a06a06f22f2d169e1e685cc9f97d60d981c81fc76385700d05c",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.6/photonlib-cpp-v2024.2.6-windowsx86-64.zip",
+        sha256 = "3606549f6c8f2f9995f08feb81df34aab00f7b447c75cc3eba680c5a063a47c5",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_linuxathena",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.5/photonlib-cpp-v2024.2.5-linuxathena.zip",
-        sha256 = "d8f663011b72f72cb0d6e4a318f2d859a4ca95cf2ad2dc146f0163a298f5a5cb",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.6/photonlib-cpp-v2024.2.6-linuxathena.zip",
+        sha256 = "b136dd8ee1282f3cb2503b292d37c267a61b8fb61f6cca9a92a281a93ce95852",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_linuxx86-64",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.5/photonlib-cpp-v2024.2.5-linuxx86-64.zip",
-        sha256 = "ef670f49f72afe4eafdfc085b6532197e4261b9ce1276978c295a6e28ec4f401",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.6/photonlib-cpp-v2024.2.6-linuxx86-64.zip",
+        sha256 = "63e16b236420b221290c0190eac0bd9b162f510622459e48a7dcfaac7b094aea",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_osxuniversal",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.5/photonlib-cpp-v2024.2.5-osxuniversal.zip",
-        sha256 = "8a9f114e719d42bfeaa3d1cc8ed485697252795600a7ef1795595a459ed10c81",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.2.6/photonlib-cpp-v2024.2.6-osxuniversal.zip",
+        sha256 = "fc3d556a03a75d89962fb94520405da68136e13afed4ad4620e7201c4acda15b",
         build_file_content = cc_library_shared,
         patch_cmds = [
             "install_name_tool -id @rpath/libphotonlib.dylib osx/universal/shared/libphotonlib.dylib",
@@ -128,36 +128,36 @@ def __setup_bzlmodrio_photonlib_cpp_dependencies(mctx):
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_headers",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.5/photontargeting-cpp-v2024.2.5-headers.zip",
-        sha256 = "0887590a0ea84ba1f2971a93218816d42961fb1cf195ac0d7788b8981517f002",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.6/photontargeting-cpp-v2024.2.6-headers.zip",
+        sha256 = "aeb30b5f818c24bdf8755064fca84f5367a3e4d3855ab3e3d99e1f192f7f51db",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_windowsx86-64",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.5/photontargeting-cpp-v2024.2.5-windowsx86-64.zip",
-        sha256 = "6e23a2703604fed45decc64cfada7d9f3798189bc1d90668a9a67e5d1c6dc7b8",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.6/photontargeting-cpp-v2024.2.6-windowsx86-64.zip",
+        sha256 = "5349114b0db17adc78b8c8fc0d976df4b1bf7a9eeac126d669354ec6c4f49c52",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_linuxathena",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.5/photontargeting-cpp-v2024.2.5-linuxathena.zip",
-        sha256 = "80d3980b94b7ed898fe86eba5771ae9c3ca68fd42c775850d7791c5e0cbf1b7e",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.6/photontargeting-cpp-v2024.2.6-linuxathena.zip",
+        sha256 = "2c8606b103282fccdfd96371c9d277329a24e97c4695a251658142423e2d49af",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_linuxx86-64",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.5/photontargeting-cpp-v2024.2.5-linuxx86-64.zip",
-        sha256 = "4ba9a75a0db542c3dd64b9c7686bb14025a347290107f35bf2b7c616e6e181a2",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.6/photontargeting-cpp-v2024.2.6-linuxx86-64.zip",
+        sha256 = "e05ff8b98fdefe36419126232cb817eec6c820ff1e026e4ee6e7a700767006ef",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_osxuniversal",
-        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.5/photontargeting-cpp-v2024.2.5-osxuniversal.zip",
-        sha256 = "c851efa8ed7c5c4761aae271da05a7df78797c8370707b434d155016cd4cf783",
+        url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.2.6/photontargeting-cpp-v2024.2.6-osxuniversal.zip",
+        sha256 = "311cebad1e0100417ab81f5b96b01a5ae8ed4b1b80d65db6f0360588cacd3ab6",
         build_file_content = cc_library_shared,
         patch_cmds = [
             "install_name_tool -id @rpath/libphotontargeting.dylib osx/universal/shared/libphotontargeting.dylib",
