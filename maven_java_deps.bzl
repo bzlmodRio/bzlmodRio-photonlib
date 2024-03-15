@@ -3,14 +3,14 @@ load("@bazel_tools//tools/build_defs/repo:jvm.bzl", "jvm_maven_import_external")
 def __setup_bzlmodrio_photonlib_java_dependencies(mctx):
     jvm_maven_import_external(
         name = "org_photonvision_photonlib_java",
-        artifact = "org.photonvision:photonlib-java:v2024.2.9",
-        artifact_sha256 = "0056567543399eaa15ffccaf741918a8c7a854b109a617b4fb2aa7f97e920dd6",
+        artifact = "org.photonvision:photonlib-java:v2024.2.10",
+        artifact_sha256 = "6b7c42c5cf1acb242d4866d80d6f9144dc9f07b82c8c063ced348a76e1622b99",
         server_urls = ["https://maven.photonvision.org/repository/internal"],
     )
     jvm_maven_import_external(
         name = "org_photonvision_photontargeting_java",
-        artifact = "org.photonvision:photontargeting-java:v2024.2.9",
-        artifact_sha256 = "c4b3fd5972cb72d4f25de233bf95f87636e99c6c4e1d0c71a013d7be11077c04",
+        artifact = "org.photonvision:photontargeting-java:v2024.2.10",
+        artifact_sha256 = "893ff2b363d5da59e846e4a6ab406d040d37e45550069d77333839f09324c1fb",
         server_urls = ["https://maven.photonvision.org/repository/internal"],
     )
 
