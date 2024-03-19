@@ -1,6 +1,6 @@
 module(
     name = "bzlmodrio-photonlib",
-    version = "v2024.2.10",
+    version = "v2024.3.1",
     compatibility_level = 2024,
 )
 
