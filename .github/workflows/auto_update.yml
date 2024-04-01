@@ -20,7 +20,7 @@ jobs:
         go-version: 1.20.x
       id: go
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Install Buildifier
       run: |
@@ -28,12 +28,12 @@ jobs:
         GO111MODULE=on go install github.com/bazelbuild/buildtools/buildifier@latest
 
     # Checkout repository
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         path: libraries/bzlmodrio-photonlib
 
     # Checkout gentool
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         repository: 'bzlmodRio/gentool.git'
         fetch-depth: 0
@@ -42,7 +42,7 @@ jobs:
 
 
     # Checkout bzlmodrio-allwpilib
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         repository: 'bzlmodRio/bzlmodrio-allwpilib.git'
         fetch-depth: 0
@@ -50,7 +50,7 @@ jobs:
         ref: main
 
     # Checkout bzlmodrio-opencv
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         repository: 'bzlmodRio/bzlmodrio-opencv.git'
         fetch-depth: 0
@@ -58,7 +58,7 @@ jobs:
         ref: main
 
     # Checkout bzlmodrio-ni
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         repository: 'bzlmodRio/bzlmodrio-ni.git'
         fetch-depth: 0
