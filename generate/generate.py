@@ -8,6 +8,7 @@ from bazelrio_gentool.generate_module_project_files import (
     create_default_mandatory_settings,
 )
 from bazelrio_gentool.cli import add_generic_cli, GenericCliArgs
+from bazelrio_gentool.manual_cleanup_helper import manual_cleanup_helper
 import argparse
 
 
@@ -44,22 +45,11 @@ def main():
 
 
 def manual_cleanup(repo_dir):
-    def helper(filename, callback):
-        with open(filename, "r") as f:
-            contents = f.read()
-
-        new_contents = callback(contents)
-        if new_contents == contents:
-            raise Exception("Nothing was replaced!")
-
-        with open(filename, "w") as f:
-            f.write(new_contents)
-
     # Manual cleanup
     cleanup_file = os.path.join(
         repo_dir, "libraries", "cpp", "photonlib-cpp", "BUILD.bazel"
     )
-    helper(
+    manual_cleanup_helper(
         cleanup_file,
         lambda x: x.replace(
             "@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"
@@ -69,7 +59,7 @@ def manual_cleanup(repo_dir):
     cleanup_file = os.path.join(
         repo_dir, "libraries", "cpp", "photontargeting-cpp", "BUILD.bazel"
     )
-    helper(
+    manual_cleanup_helper(
         cleanup_file,
         lambda x: x.replace(
             "@bzlmodrio-photonlib//libraries", "@bzlmodrio-photonlib//private"
