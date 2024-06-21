@@ -81,7 +81,7 @@
   "moduleExtensions": {
     "//:maven_cpp_deps.bzl%setup_bzlmodrio_photonlib_cpp_dependencies": {
       "general": {
-        "bzlTransitiveDigest": "BP6at3bcq7HN46txwY7vBv4CpkfPrjUJ6nz5NYvETa4=",
+        "bzlTransitiveDigest": "pqR+UpnO30t37cdI0SNkM5e2fJdiX8pE+GYwYxwX63U=",
         "usagesDigest": "Q4aQbT1ZzgsZw1zCS52dmmEVt80yNF1zaqaux/fKRC0=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -92,7 +92,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.3.1/photonlib-cpp-v2024.3.1-headers.zip",
-              "sha256": "03dfd59929708c86db8235fadf5b72bb63ed0258bc4099194e1f84f0cc674877",
+              "sha256": "a9833a7e7f650cc48ec90458b8b4eb658a191561ebfe740505e5242f1d331713",
               "build_file_content": "cc_library(\n    name = \"headers\",\n    hdrs = glob([\"**\"]),\n    includes = [\".\"],\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -101,7 +101,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.3.1/photontargeting-cpp-v2024.3.1-headers.zip",
-              "sha256": "45ef8e4157615312248f4e193198d155336fadb3ccf2a98b229e26f4745451be",
+              "sha256": "c225ea333c0e8521081e9b78126a446681549480c7a7b0c24486f981e2b94ecf",
               "build_file_content": "cc_library(\n    name = \"headers\",\n    hdrs = glob([\"**\"]),\n    includes = [\".\"],\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
@@ -110,7 +110,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.3.1/photontargeting-cpp-v2024.3.1-osxuniversal.zip",
-              "sha256": "486d28af49c6663d5e08efea61781e0edb133c96da91f38aa9dd6de659067c70",
+              "sha256": "2b37d4ca363c92596d1aa5129b7c77d19b56aedca75192da17d3fa5591902ee3",
               "build_file": "@@//private/cpp/photontargeting-cpp:shared.BUILD.bazel",
               "patch_cmds": [
                 "install_name_tool -id @rpath/libphotontargeting.dylib osx/universal/shared/libphotontargeting.dylib",
@@ -131,7 +131,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.3.1/photonlib-cpp-v2024.3.1-linuxx86-64.zip",
-              "sha256": "9744a1b7e782150ebc41b98ef0267c1abcd3f60d4815f8c36d536a6161f7cc8a",
+              "sha256": "8790c74582cfd9d12b89aed9d9e5085092d135a7ead189494c76d09446be094c",
               "build_file": "@@//private/cpp/photonlib-cpp:shared.BUILD.bazel"
             }
           },
@@ -140,7 +140,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.3.1/photontargeting-cpp-v2024.3.1-windowsx86-64.zip",
-              "sha256": "cec45fc76841e76eb5df7aeb4d03e5da1ad63762e86c0fb609fb9c2ca8a3313e",
+              "sha256": "cb25d887ee10e4d017c6d18bfc16785697121e27a4d6ca49843a1d4e43975251",
               "build_file": "@@//private/cpp/photontargeting-cpp:shared.BUILD.bazel"
             }
           },
@@ -149,7 +149,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.3.1/photontargeting-cpp-v2024.3.1-linuxathena.zip",
-              "sha256": "b2cb9dad1c3bd0005b61679720eeaf4d4b1e31c02517008d486964b8a9abce7b",
+              "sha256": "f61dbccf266f05384bee4ea8c5a1871fa7af67adf6f6b55acf6bd8d4e8675b33",
               "build_file": "@@//private/cpp/photontargeting-cpp:shared.BUILD.bazel"
             }
           },
@@ -158,7 +158,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.3.1/photonlib-cpp-v2024.3.1-windowsx86-64.zip",
-              "sha256": "a16e75cf87cb847b04ee371502e8309ae4937a1025b946934ed5cacb87f29293",
+              "sha256": "9f29c10b13fe71871f242f11a80e04f0b79136dfb77a0b653f84b046518d657f",
               "build_file": "@@//private/cpp/photonlib-cpp:shared.BUILD.bazel"
             }
           },
@@ -167,7 +167,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.3.1/photonlib-cpp-v2024.3.1-osxuniversal.zip",
-              "sha256": "de99c496d35b8e1cadf6e8db7fc379ed3605771c7ff90102ce7e830f8bcf551f",
+              "sha256": "3a688c10032c90bace78bd055f0a71089a95cc01e8ef9bb771ebaace5e5fb852",
               "build_file": "@@//private/cpp/photonlib-cpp:shared.BUILD.bazel",
               "patch_cmds": [
                 "install_name_tool -id @rpath/libphotonlib.dylib osx/universal/shared/libphotonlib.dylib",
@@ -189,7 +189,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2024.3.1/photonlib-cpp-v2024.3.1-linuxathena.zip",
-              "sha256": "6c094c2fcf5324bc51caf98a0c46e90fc16e7c281e7b94c7a6f8eecd7c3e13fe",
+              "sha256": "34f3492874abc900831609f5faca3ea616c6d29d48a910bdbcc420e3202841f6",
               "build_file": "@@//private/cpp/photonlib-cpp:shared.BUILD.bazel"
             }
           },
@@ -198,7 +198,7 @@
             "ruleClassName": "http_archive",
             "attributes": {
               "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2024.3.1/photontargeting-cpp-v2024.3.1-linuxx86-64.zip",
-              "sha256": "18ec60dcf18b017a3f437e558a26d55f9a155a98d4a1abe47f030a2c713ec466",
+              "sha256": "ca76df197cbb3479802802735f60097bf99f1fcd251a125a2debd9dbbe87378c",
               "build_file": "@@//private/cpp/photontargeting-cpp:shared.BUILD.bazel"
             }
           }
@@ -214,7 +214,7 @@
     },
     "//:maven_java_deps.bzl%setup_bzlmodrio_photonlib_java_dependencies": {
       "general": {
-        "bzlTransitiveDigest": "u3z7FfttTXXd1Mh6uTUfFAXsK+SohcPPYSRCkxhSDu8=",
+        "bzlTransitiveDigest": "eQoiReT8AaCdG5mV94lHUclrYq1Q47/GeuTgPccQpzs=",
         "usagesDigest": "3OmeBEi8uhIvMsfKCQUyKFF6e5V2TX5kEB4UMzIClQU=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -234,7 +234,7 @@
               "tags": [
                 "maven_coordinates=org.photonvision:photonlib-java:v2024.3.1"
               ],
-              "artifact_sha256": "bae9a6c2903dba13ef05c6e43c6d586d5e3aab0ef713884584d92c9cfb65ced8"
+              "artifact_sha256": "ae4a7aaba78eddd88c056e133c2df6a0ef6eaa84121928f1f65786da0c45676d"
             }
           },
           "org_photonvision_photontargeting_java": {
@@ -251,7 +251,7 @@
               "tags": [
                 "maven_coordinates=org.photonvision:photontargeting-java:v2024.3.1"
               ],
-              "artifact_sha256": "93a169ce2ee889bdc0ef187f98311404d51e675bb5047e85195a7b923216ec2c"
+              "artifact_sha256": "aa73a0bb6c5df7b707f51afe6f5db68586a4c5d4059cd14bd6068aeee0c32a5d"
             }
           }
         },
