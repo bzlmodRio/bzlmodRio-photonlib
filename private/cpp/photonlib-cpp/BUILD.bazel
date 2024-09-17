@@ -1,5 +1,11 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
+alias(
+    name = "header_files",
+    actual = "@bazelrio_org_photonvision_photonlib-cpp_headers//:header_files",
+    visibility = ["@bzlmodrio-photonlib//:__subpackages__"],
+)
+
 cc_library(
     name = "shared_interface",
     srcs = select({
@@ -15,12 +21,6 @@ cc_library(
     }),
     visibility = ["@bzlmodrio-photonlib//:__subpackages__"],
     deps = ["@bazelrio_org_photonvision_photonlib-cpp_headers//:headers"],
-)
-
-alias(
-    name = "header_files",
-    actual = "@bazelrio_org_photonvision_photonlib-cpp_headers//:header_files",
-    visibility = ["@bzlmodrio-photonlib//:__subpackages__"],
 )
 
 filegroup(
