@@ -17,14 +17,26 @@ cc_library(
     deps = ["@bazelrio_org_photonvision_photonlib-cpp_headers//:headers"],
 )
 
-cc_library(
-    name = "shared",
+alias(
+    name = "header_files",
+    actual = "@bazelrio_org_photonvision_photonlib-cpp_headers//:header_files",
+    visibility = ["@bzlmodrio-photonlib//:__subpackages__"],
+)
+
+filegroup(
+    name = "shared_raw",
     srcs = select({
         "@rules_bazelrio//conditions:linux_x86_64": ["@bazelrio_org_photonvision_photonlib-cpp_linuxx86-64//:shared"],
         "@rules_bazelrio//conditions:osx": ["@bazelrio_org_photonvision_photonlib-cpp_osxuniversal//:shared"],
         "@rules_bazelrio//conditions:windows": ["@bazelrio_org_photonvision_photonlib-cpp_windowsx86-64//:shared"],
         "@rules_bzlmodrio_toolchains//constraints/is_roborio:roborio": ["@bazelrio_org_photonvision_photonlib-cpp_linuxathena//:shared"],
     }),
+    visibility = ["@bzlmodrio-photonlib//:__subpackages__"],
+)
+
+cc_library(
+    name = "shared",
+    srcs = [":shared_raw"],
     target_compatible_with = select({
         "@rules_bzlmodrio_toolchains//constraints/is_bullseye32:bullseye32": ["@platforms//:incompatible"],
         "@rules_bzlmodrio_toolchains//constraints/is_bullseye64:bullseye64": ["@platforms//:incompatible"],
