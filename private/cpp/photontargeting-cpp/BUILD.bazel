@@ -30,6 +30,7 @@ filegroup(
         "@rules_bazelrio//conditions:osx": ["@bazelrio_org_photonvision_photontargeting-cpp_osxuniversal//:shared"],
         "@rules_bazelrio//conditions:windows": ["@bazelrio_org_photonvision_photontargeting-cpp_windowsx86-64//:shared"],
         "@rules_bzlmodrio_toolchains//constraints/is_roborio:roborio": ["@bazelrio_org_photonvision_photontargeting-cpp_linuxathena//:shared"],
+        "//conditions:default": [],
     }),
     visibility = ["@bzlmodrio-photonlib//:__subpackages__"],
 )
