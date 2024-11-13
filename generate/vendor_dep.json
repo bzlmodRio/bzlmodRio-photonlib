@@ -11,11 +11,37 @@
   "jsonUrl": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-json/1.0/photonlib-json-1.0.json",
   "jniDependencies": [
     {
+      "groupId": "edu.wpi.first.wpilibc",
+      "artifactId": "wpilibc-cpp",
+      "version": "2025.1.1-beta-1",
+      "skipInvalidPlatforms": true,
+      "isJar": false,
+      "validPlatforms": [
+        "windowsx86-64",
+        "linuxathena",
+        "linuxx86-64",
+        "osxuniversal"
+      ]
+    },
+    {
       "groupId": "org.photonvision",
       "artifactId": "photontargeting-cpp",
       "version": "v2025.0.0-beta-2",
       "skipInvalidPlatforms": true,
       "isJar": false,
+      "validPlatforms": [
+        "windowsx86-64",
+        "linuxathena",
+        "linuxx86-64",
+        "osxuniversal"
+      ]
+    },
+    {
+      "groupId": "org.photonvision",
+      "artifactId": "photontargeting-jni",
+      "version": "v2025.0.0-beta-2",
+      "skipInvalidPlatforms": true,
+      "isJar": true,
       "validPlatforms": [
         "windowsx86-64",
         "linuxathena",
