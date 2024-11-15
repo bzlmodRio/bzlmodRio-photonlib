@@ -1,6 +1,6 @@
 module(
     name = "bzlmodrio-photonlib",
-    version = "v2025.0.0-beta-2",
+    version = "v2025.0.0-beta-3",
     compatibility_level = 2025,
 )
 
@@ -19,12 +19,10 @@ use_repo(
     "bazelrio_org_photonvision_photonlib-cpp_linuxathena",
     "bazelrio_org_photonvision_photonlib-cpp_linuxx86-64",
     "bazelrio_org_photonvision_photonlib-cpp_osxuniversal",
-    "bazelrio_org_photonvision_photonlib-cpp_windowsx86-64",
     "bazelrio_org_photonvision_photontargeting-cpp_headers",
     "bazelrio_org_photonvision_photontargeting-cpp_linuxathena",
     "bazelrio_org_photonvision_photontargeting-cpp_linuxx86-64",
     "bazelrio_org_photonvision_photontargeting-cpp_osxuniversal",
-    "bazelrio_org_photonvision_photontargeting-cpp_windowsx86-64",
 )
 
 setup_bzlmodrio_photonlib_java_dependencies = use_extension("//:maven_java_deps.bzl", "setup_bzlmodrio_photonlib_java_dependencies")
