@@ -38,6 +38,7 @@ def main():
         group,
         mandatory_dependencies=mandatory_dependencies,
         include_windows_arm_compiler=False,
+        include_bullseye_compiler=False,
     )
     generate_meta_deps(output_dir, group, force_tests=args.force_tests)
 
