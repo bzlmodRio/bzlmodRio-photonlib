@@ -14,8 +14,8 @@ cc_library(
     linkstatic = True,
     tags = ["manual"],
     target_compatible_with = select({
-        "@rules_bzlmodrio_toolchains//constraints/is_bullseye32:bullseye32": ["@platforms//:incompatible"],
-        "@rules_bzlmodrio_toolchains//constraints/is_bullseye64:bullseye64": ["@platforms//:incompatible"],
+        "@rules_bzlmodrio_toolchains//constraints/is_bookworm32:bookworm32": ["@platforms//:incompatible"],
+        "@rules_bzlmodrio_toolchains//constraints/is_bookworm64:bookworm64": ["@platforms//:incompatible"],
         "@rules_bzlmodrio_toolchains//constraints/is_raspi32:raspi32": ["@platforms//:incompatible"],
         "//conditions:default": [],
     }),
@@ -39,8 +39,8 @@ cc_library(
     name = "shared",
     srcs = [":shared_raw"],
     target_compatible_with = select({
-        "@rules_bzlmodrio_toolchains//constraints/is_bullseye32:bullseye32": ["@platforms//:incompatible"],
-        "@rules_bzlmodrio_toolchains//constraints/is_bullseye64:bullseye64": ["@platforms//:incompatible"],
+        "@rules_bzlmodrio_toolchains//constraints/is_bookworm32:bookworm32": ["@platforms//:incompatible"],
+        "@rules_bzlmodrio_toolchains//constraints/is_bookworm64:bookworm64": ["@platforms//:incompatible"],
         "@rules_bzlmodrio_toolchains//constraints/is_raspi32:raspi32": ["@platforms//:incompatible"],
         "//conditions:default": [],
     }),
