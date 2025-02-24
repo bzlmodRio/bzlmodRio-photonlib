@@ -9,7 +9,7 @@ def get_photonlib_dependencies(
     use_local_allwpilib=False,
     use_local_opencv=False,
     use_local_ni=True,
-    allwpilib_version_override="2025.1.1",
+    allwpilib_version_override="2025.3.1",
     opencv_version_override="2025.4.10.0-3",
     ni_version_override="2025.2.0",
 ):
