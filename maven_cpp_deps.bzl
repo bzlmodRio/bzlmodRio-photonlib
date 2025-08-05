@@ -27,35 +27,35 @@ def __setup_bzlmodrio_photonlib_cpp_dependencies(mctx):
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_headers",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-headers.zip",
-        sha256 = "641d63c8e683f7567286ac50cf516f39763ed8e77a449e6722e948ad1615a047",
+        sha256 = "aa500492a4b2a4cf8d5f14f124fb279f31bc4056d031c69c9340d086d12e6c20",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_windowsx86-64",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-windowsx86-64.zip",
-        sha256 = "1c0c2f85576b7f262ec2333dd360c301c3decdf3d6518736823110c8228bdd51",
+        sha256 = "9f0d59de88991dc9ed3aa7fae11ba46f6ff97d9e4a4df79f78d157ab02e403c7",
         build_file = "@bzlmodrio-photonlib//private/cpp/photonlib-cpp:shared.BUILD.bazel",
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_linuxathena",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-linuxathena.zip",
-        sha256 = "834a601879ad83197680859b4df5c4069994b93256af3a5b522db5800c8c5da1",
+        sha256 = "dd6eb860a9f72136f1f4d034aab3d8792168f0d8b324ebf1c4e92338c2c8a6d2",
         build_file = "@bzlmodrio-photonlib//private/cpp/photonlib-cpp:shared.BUILD.bazel",
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_linuxx86-64",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-linuxx86-64.zip",
-        sha256 = "7dac410068e9cd6d1545e0107c708ab29f505aa94fb5e500f7d69f6dce3d140f",
+        sha256 = "3b0d3d72fc7076f17f4f61d3392162d1f8511a7d95cff7efadcd62a593b96d3a",
         build_file = "@bzlmodrio-photonlib//private/cpp/photonlib-cpp:shared.BUILD.bazel",
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photonlib-cpp_osxuniversal",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-osxuniversal.zip",
-        sha256 = "1bd6252d720ec11ecf4125eac17285d1dd408869e29e2b4888eab30189dff907",
+        sha256 = "aceabadbe3b05e7309be83e7164cd7da51725b92e84fbd0e60fc5644d50aea64",
         build_file = "@bzlmodrio-photonlib//private/cpp/photonlib-cpp:shared.BUILD.bazel",
         patch_cmds = [
             "install_name_tool -id @rpath/libphotonlib.dylib osx/universal/shared/libphotonlib.dylib",
@@ -75,39 +75,41 @@ def __setup_bzlmodrio_photonlib_cpp_dependencies(mctx):
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_headers",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-headers.zip",
-        sha256 = "b3a31f04e9c2099e14596ba012e18e03f04a3c99d54e6045c6fddedfab009413",
+        sha256 = "2a3279c7a852b44cd7e98c969315e3b9be17d5bd90369b89803c49de77937be9",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_windowsx86-64",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-windowsx86-64.zip",
-        sha256 = "408e8b86e082ba116d87d76d52c59c24ede563db7dbaea1f21df358863b0420e",
+        sha256 = "a077bdb18c1dbff2c88e0a90bc1c15f1cd6e638289841ca9b25a8f48de7c8879",
         build_file = "@bzlmodrio-photonlib//private/cpp/photontargeting-cpp:shared.BUILD.bazel",
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_linuxathena",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-linuxathena.zip",
-        sha256 = "cf712ab80f7027792e250c93f6684e44163ca6c46e3bc1b21c1e7f5a6e2a7a65",
+        sha256 = "d5b641d8c90dae44a79c16b94dd6f1f8aadafdd9f5b987deb6d8004883d21210",
         build_file = "@bzlmodrio-photonlib//private/cpp/photontargeting-cpp:shared.BUILD.bazel",
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_linuxx86-64",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-linuxx86-64.zip",
-        sha256 = "ea82e65400a3928aa3cbbedccb6ef659063108c116e84f7ea9128e810e08d4ad",
+        sha256 = "eded7d93f2c2dffed348aec351d2116b5c0912e7e8cc43be60216f1ddc65a720",
         build_file = "@bzlmodrio-photonlib//private/cpp/photontargeting-cpp:shared.BUILD.bazel",
     )
     maybe(
         http_archive,
         "bazelrio_org_photonvision_photontargeting-cpp_osxuniversal",
         url = "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-osxuniversal.zip",
-        sha256 = "f293eb53b06df8fcefecb5bf534dfa85fc2bb24aeef7dca6a7393625cfd2a10a",
+        sha256 = "8e02676aedd5d6561ea9b23958061d776d096698ef91137c8e028ea4198d2951",
         build_file = "@bzlmodrio-photonlib//private/cpp/photontargeting-cpp:shared.BUILD.bazel",
         patch_cmds = [
             "install_name_tool -id @rpath/libphotontargeting.dylib osx/universal/shared/libphotontargeting.dylib",
             "install_name_tool -change libapriltag.dylib @rpath/libapriltag.dylib osx/universal/shared/libphotontargeting.dylib",
+            "install_name_tool -change libcameraserver.dylib @rpath/libcameraserver.dylib osx/universal/shared/libphotontargeting.dylib",
+            "install_name_tool -change libcscore.dylib @rpath/libcscore.dylib osx/universal/shared/libphotontargeting.dylib",
             "install_name_tool -change libntcore.dylib @rpath/libntcore.dylib osx/universal/shared/libphotontargeting.dylib",
             "install_name_tool -change libwpiHal.dylib @rpath/libwpiHal.dylib osx/universal/shared/libphotontargeting.dylib",
             "install_name_tool -change libwpilibc.dylib @rpath/libwpilibc.dylib osx/universal/shared/libphotontargeting.dylib",
