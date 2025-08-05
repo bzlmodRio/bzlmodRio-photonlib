@@ -49,7 +49,9 @@ def get_photonlib_dependencies(
                     allwpilib_dependency.container.get_cc_dependency("wpilibc-cpp"),
                     allwpilib_dependency.container.get_cc_dependency("apriltag-cpp"),
                     allwpilib_dependency.container.get_cc_dependency("cscore-cpp"),
-                    allwpilib_dependency.container.get_cc_dependency("cameraserver-cpp"),
+                    allwpilib_dependency.container.get_cc_dependency(
+                        "cameraserver-cpp"
+                    ),
                 ],
             ),
         },
