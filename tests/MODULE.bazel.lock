@@ -10,6 +10,7 @@
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/abseil-cpp/20230802.1/MODULE.bazel": "fa92e2eb41a04df73cdabeec37107316f7e5272650f81d6cc096418fe647b915",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/abseil-cpp/20240116.1/MODULE.bazel": "37bcdb4440fbb61df6a1c296ae01b327f19e9bb521f9b8e26ec854b6f97309ed",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/abseil-cpp/20240116.1/source.json": "9be551b8d4e3ef76875c0d744b5d6a504a27e3ae67bc6b28f46415fd2d2957da",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_features/1.1.1/MODULE.bazel": "27b8c79ef57efe08efccbd9dd6ef70d61b4798320b8d3c134fd571f78963dbcd",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_features/1.11.0/MODULE.bazel": "f9382337dd5a474c3b7d334c2f83e50b6eaedc284253334cf823044a26de03e8",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_features/1.15.0/MODULE.bazel": "d38ff6e517149dc509406aca0db3ad1efdd890a85e049585b7234d04238e2a4d",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_features/1.17.0/MODULE.bazel": "039de32d21b816b47bd42c778e0454217e9c9caac4a3cf8e15c7231ee3ddee4d",
@@ -20,6 +21,7 @@
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_features/1.30.0/MODULE.bazel": "a14b62d05969a293b80257e72e597c2da7f717e1e69fa8b339703ed6731bec87",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_features/1.30.0/source.json": "b07e17f067fe4f69f90b03b36ef1e08fe0d1f3cac254c1241a1818773e3423bc",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_features/1.4.1/MODULE.bazel": "e45b6bb2350aff3e442ae1111c555e27eac1d915e77775f6fdc4b351b758b5d7",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_features/1.9.1/MODULE.bazel": "8f679097876a9b609ad1f60249c49d68bfab783dd9be012faf9d82547b14815a",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.0.3/MODULE.bazel": "bcb0fd896384802d1ad283b4e4eb4d718eebd8cb820b0a2c3a347fb971afd9d8",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.1.1/MODULE.bazel": "1add3e7d93ff2e6998f9e118022c84d163917d912f5afafb3058e3d2f1545b5e",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.2.0/MODULE.bazel": "44fe84260e454ed94ad326352a698422dbe372b21a1ac9f3eab76eb531223686",
@@ -31,11 +33,15 @@
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.6.1/MODULE.bazel": "8fdee2dbaace6c252131c00e1de4b165dc65af02ea278476187765e1a617b917",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.7.0/MODULE.bazel": "0db596f4563de7938de764cc8deeabec291f55e8ec15299718b93c4423e9796d",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.7.1/MODULE.bazel": "3120d80c5861aa616222ec015332e5f8d3171e062e3e804a2a0253e1be26e59b",
-    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.7.1/source.json": "f121b43eeefc7c29efbd51b83d08631e2347297c95aac9764a701f2a6a2bb953",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.8.2/MODULE.bazel": "69ad6927098316848b34a9142bcc975e018ba27f08c4ff403f50c1b6e646ca67",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bazel_skylib/1.8.2/source.json": "34a3c8bcf233b835eb74be9d628899bb32999d3e0eadef1947a0a562a2b16ffb",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/buildozer/7.1.2/MODULE.bazel": "2e8dd40ede9c454042645fd8d8d0cd1527966aa5c919de86661e62953cd73d84",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/buildozer/7.1.2/source.json": "c9028a501d2db85793a6996205c8de120944f50a0d570438fcae0457a5f9d1f8",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bzlmodrio-allwpilib/2025.3.2.bcr1/MODULE.bazel": "a97f23d9785bfa8e5b3df4714e0e38cd5627b33d589e857c4d564a1d9def2011",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bzlmodrio-allwpilib/2025.3.2.bcr1/source.json": "f5d326b0bb0735123246f1d0c7c08ba56fdd0c5c03aa3e466a60bf1737b5f08d",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bzlmodrio-ni/2025.2.0.bcr1/MODULE.bazel": "525cd4d04b63b8eaa4e9fb37d290d7a635e81b0cb99c096682dc309d384f89a5",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bzlmodrio-ni/2025.2.0.bcr1/source.json": "af248c5739b6ac9809fceba756ec22bd58e0c6af4be4e7d99042c6af2138bf74",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bzlmodrio-opencv/2025.4.10.0-3.bcr2/MODULE.bazel": "17db4a9075fb5e69f6159b5f35fcccf9854ad377fcab59673db1d96aac4777e7",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bzlmodrio-opencv/2025.4.10.0-3.bcr3/MODULE.bazel": "de23d58a5c2d7bb5fc96aad68f8fc5c6995bf772ed960efba2e8ec26db8f1ca0",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/bzlmodrio-opencv/2025.4.10.0-3.bcr3/source.json": "47fe03ff71716c67a7670675a9f5a4c7a6fa145a0dee963cefc329d915c6d09c",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/google_benchmark/1.8.2/MODULE.bazel": "a70cf1bba851000ba93b58ae2f6d76490a9feb74192e57ab8e8ff13c34ec50cb",
@@ -79,6 +85,7 @@
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.0.1/MODULE.bazel": "cb2aa0747f84c6c3a78dad4e2049c154f08ab9d166b1273835a8174940365647",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.0.10/MODULE.bazel": "ec1705118f7eaedd6e118508d3d26deba2a4e76476ada7e0e3965211be012002",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.0.13/MODULE.bazel": "0e8529ed7b323dad0775ff924d2ae5af7640b23553dfcd4d34344c7e7a867191",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.0.14/MODULE.bazel": "5e343a3aac88b8d7af3b1b6d2093b55c347b8eefc2e7d1442f7a02dc8fea48ac",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.0.15/MODULE.bazel": "6704c35f7b4a72502ee81f61bf88706b54f06b3cbe5558ac17e2e14666cd5dcc",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.0.16/MODULE.bazel": "7661303b8fc1b4d7f532e54e9d6565771fea666fbdf839e0a86affcd02defe87",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.0.2/MODULE.bazel": "6915987c90970493ab97393024c156ea8fb9f3bea953b2f3ec05c34f19b5695c",
@@ -87,7 +94,8 @@
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.0.9/MODULE.bazel": "836e76439f354b89afe6a911a7adf59a6b2518fafb174483ad78a2a2fde7b1c5",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.1.1/MODULE.bazel": "2f0222a6f229f0bf44cd711dc13c858dad98c62d52bd51d8fc3a764a83125513",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.1.4/MODULE.bazel": "bb03a452a7527ac25a7518fb86a946ef63df860b9657d8323a0c50f8504fb0b9",
-    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.1.4/source.json": "f8e6678214b318585ed9f8deb55ae64ba7708465e4f201f41ab636b9c63851e1",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.1.5/MODULE.bazel": "88dfc9361e8b5ae1008ac38f7cdfd45ad738e4fa676a3ad67d19204f045a1fd8",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_cc/0.1.5/source.json": "4bb4fed7f5499775d495739f785a5494a1f854645fa1bac5de131264f5acdf01",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_checkstyle/10.12.2.bcr1/MODULE.bazel": "9d451484947d602c2c3dfd8940a11b074bb3bbd3bfc2bc9e597167000a907168",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_checkstyle/10.12.2.bcr1/source.json": "7a74843e772e952588df5b2e46886fc78e46863ae805dd9d22704c7e3b260985",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_checkstyle/10.12.2/MODULE.bazel": "a96110db4303d2e54869400467e9ec76c6be1de0de5466aae21022693872b2e1",
@@ -135,6 +143,15 @@
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_proto/6.0.2/MODULE.bazel": "ce916b775a62b90b61888052a416ccdda405212b6aaeb39522f7dc53431a5e73",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_proto/7.0.2/MODULE.bazel": "bf81793bd6d2ad89a37a40693e56c61b0ee30f7a7fdbaf3eabbf5f39de47dea2",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_proto/7.0.2/source.json": "1e5e7260ae32ef4f2b52fd1d0de8d03b606a44c91b694d2f1afb1d3b28a48ce1",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/0.10.2/MODULE.bazel": "cc82bc96f2997baa545ab3ce73f196d040ffb8756fd2d66125a530031cd90e5f",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/0.23.1/MODULE.bazel": "49ffccf0511cb8414de28321f5fcf2a31312b47c40cc21577144b7447f2bf300",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/0.25.0/MODULE.bazel": "72f1506841c920a1afec76975b35312410eea3aa7b63267436bfb1dd91d2d382",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/0.28.0/MODULE.bazel": "cba2573d870babc976664a912539b320cbaa7114cd3e8f053c720171cde331ed",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/0.31.0/MODULE.bazel": "93a43dc47ee570e6ec9f5779b2e64c1476a6ce921c48cc9a1678a91dd5f8fd58",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/0.4.0/MODULE.bazel": "9208ee05fd48bf09ac60ed269791cf17fb343db56c8226a720fbb1cdf467166c",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/0.40.0/MODULE.bazel": "9d1a3cd88ed7d8e39583d9ffe56ae8a244f67783ae89b60caafc9f5cf318ada7",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/1.7.0/MODULE.bazel": "d01f995ecd137abf30238ad9ce97f8fc3ac57289c8b24bd0bf53324d937a14f8",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_python/1.7.0/source.json": "028a084b65dcf8f4dc4f82f8778dbe65df133f234b316828a82e060d81bdce32",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_shell/0.2.0/MODULE.bazel": "fda8a652ab3c7d8fee214de05e7a9916d8b28082234e8d2c0094505c5268ed3c",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_shell/0.4.0/MODULE.bazel": "0f8f11bb3cd11755f0b48c1de0bbcf62b4b34421023aa41a2fc74ef68d9584f0",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_shell/0.4.0/source.json": "1d7fa7f941cd41dc2704ba5b4edc2e2230eea1cc600d80bd2b65838204c50b95",
@@ -143,11 +160,13 @@
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_wpi_styleguide/2025.06.22/MODULE.bazel": "92f2000f4cd0a401cf54176d60866ebb808643202ea699df442deb47df2d729e",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_wpi_styleguide/2025.06.22/source.json": "1a9211982498ba5b5240286ef916643e404320551c226da89dfab95742cc38dd",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_wpiformat/2025.33/MODULE.bazel": "d65696ac3e3046d87208cbf12a2fd83be901028ec658d45ae52307db99e16991",
-    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_wpiformat/2025.33/source.json": "bd58440873979df1e8488ec501e2f484d8d9c2441264ecd701d3ffaa92da565f",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_wpiformat/2025.68/MODULE.bazel": "a30dcb352bd1885a0098dc4f00965d69b452e751f99905df6054d6600e298fdb",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/rules_wpiformat/2025.68/source.json": "861d8aade8612b41a3ba37783da60212af45692510dbe08e2a15c17f4390c6e8",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/stardoc/0.5.1/MODULE.bazel": "1a05d92974d0c122f5ccf09291442580317cdd859f07a8655f1db9a60374f9f8",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/stardoc/0.5.3/MODULE.bazel": "c7f6948dae6999bf0db32c1858ae345f112cacf98f174c7a8bb707e41b974f1c",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/stardoc/0.5.6/MODULE.bazel": "c43dabc564990eeab55e25ed61c07a1aadafe9ece96a4efabb3f8bf9063b71ef",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/stardoc/0.7.0/MODULE.bazel": "05e3d6d30c099b6770e97da986c53bd31844d7f13d41412480ea265ac9e8079c",
+    "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/stardoc/0.7.1/MODULE.bazel": "3548faea4ee5dda5580f9af150e79d0f6aea934fc60c1cc50f4efdd9420759e7",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/stardoc/0.7.2/MODULE.bazel": "fc152419aa2ea0f51c29583fab1e8c99ddefd5b3778421845606ee628629e0e5",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/stardoc/0.7.2/source.json": "58b029e5e901d6802967754adf0a9056747e8176f017cfe3607c0851f4d42216",
     "https://raw.githubusercontent.com/pjreiniger/bazel-central-registry/bzlmodrio/modules/upb/0.0.0-20220923-a547704/MODULE.bazel": "7298990c00040a0e2f121f6c32544bab27d4452f80d9ce51349b1a28f3005c43",
@@ -4420,7 +4439,7 @@
     "@@bzlmodrio-allwpilib+//:maven_java_deps.bzl%setup_bzlmodrio_allwpilib_java_dependencies": {
       "general": {
         "bzlTransitiveDigest": "he8+j7COt5valpjBc/husdDXBbWVAHMwocpg+IsPZYY=",
-        "usagesDigest": "BRDOx6tpd7ZqY1MSxKk1MT9gX3kWj+/lH5t04ePyWdw=",
+        "usagesDigest": "tILn7gav7nDyc3Pnqp90kuQIfHyPan11D7Jf1JSaeZg=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -5065,8 +5084,8 @@
     },
     "@@bzlmodrio-photonlib+//:maven_cpp_deps.bzl%setup_bzlmodrio_photonlib_cpp_dependencies": {
       "general": {
-        "bzlTransitiveDigest": "Kt06lc7JqKoepNf8Tll6TA/1m7gBiQm5SzGPtjq5mlY=",
-        "usagesDigest": "siAGB22HLZ9/3Vw0LXpxNqjiacdFMDGj8FqKJzqnekA=",
+        "bzlTransitiveDigest": "fvqSSAh+/p+TCt8gtn1mofVvH5R6VONarwXwB2IeNR8=",
+        "usagesDigest": "rUUt57kCYkTmTz3HF25/37AYttHoG1NLL08C/u9nNs8=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -5074,40 +5093,40 @@
           "bazelrio_org_photonvision_photonlib-cpp_headers": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-headers.zip",
-              "sha256": "aa500492a4b2a4cf8d5f14f124fb279f31bc4056d031c69c9340d086d12e6c20",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2026.0.1-beta/photonlib-cpp-v2026.0.1-beta-headers.zip",
+              "sha256": "5454ea1b5a03ff6139d136438c998bcb9f27390d837b8c8bdb27247c6e641e4b",
               "build_file_content": "cc_library(\n    name = \"headers\",\n    hdrs = glob([\"**\"]),\n    includes = [\".\"],\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"header_files\",\n    srcs = glob([\"**\"]),\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
           "bazelrio_org_photonvision_photonlib-cpp_windowsx86-64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-windowsx86-64.zip",
-              "sha256": "9f0d59de88991dc9ed3aa7fae11ba46f6ff97d9e4a4df79f78d157ab02e403c7",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2026.0.1-beta/photonlib-cpp-v2026.0.1-beta-windowsx86-64.zip",
+              "sha256": "5f9e35ca95e7d4ab31eb228961481a8906080fd892957b5b73aa084e5ab5cfae",
               "build_file": "@@bzlmodrio-photonlib+//private/cpp/photonlib-cpp:shared.BUILD.bazel"
             }
           },
           "bazelrio_org_photonvision_photonlib-cpp_linuxathena": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-linuxathena.zip",
-              "sha256": "dd6eb860a9f72136f1f4d034aab3d8792168f0d8b324ebf1c4e92338c2c8a6d2",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2026.0.1-beta/photonlib-cpp-v2026.0.1-beta-linuxathena.zip",
+              "sha256": "6da66b6628f86e65eefe10a802873a395cab750cedc429b8cd17a1e02de3dc83",
               "build_file": "@@bzlmodrio-photonlib+//private/cpp/photonlib-cpp:shared.BUILD.bazel"
             }
           },
           "bazelrio_org_photonvision_photonlib-cpp_linuxx86-64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-linuxx86-64.zip",
-              "sha256": "3b0d3d72fc7076f17f4f61d3392162d1f8511a7d95cff7efadcd62a593b96d3a",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2026.0.1-beta/photonlib-cpp-v2026.0.1-beta-linuxx86-64.zip",
+              "sha256": "8c4602ef1c5d3b75d049b7d00c5715181be3b150a333ed87d0589fea19934452",
               "build_file": "@@bzlmodrio-photonlib+//private/cpp/photonlib-cpp:shared.BUILD.bazel"
             }
           },
           "bazelrio_org_photonvision_photonlib-cpp_osxuniversal": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2025.3.2/photonlib-cpp-v2025.3.2-osxuniversal.zip",
-              "sha256": "aceabadbe3b05e7309be83e7164cd7da51725b92e84fbd0e60fc5644d50aea64",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-cpp/v2026.0.1-beta/photonlib-cpp-v2026.0.1-beta-osxuniversal.zip",
+              "sha256": "17cf2aaba7104796829d0de781b000e33fdbc3f5126dce33675ac47c4c823e1f",
               "build_file": "@@bzlmodrio-photonlib+//private/cpp/photonlib-cpp:shared.BUILD.bazel",
               "patch_cmds": [
                 "install_name_tool -id @rpath/libphotonlib.dylib osx/universal/shared/libphotonlib.dylib",
@@ -5127,40 +5146,40 @@
           "bazelrio_org_photonvision_photontargeting-cpp_headers": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-headers.zip",
-              "sha256": "2a3279c7a852b44cd7e98c969315e3b9be17d5bd90369b89803c49de77937be9",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2026.0.1-beta/photontargeting-cpp-v2026.0.1-beta-headers.zip",
+              "sha256": "d3886b35e1081652db286e96a722d84ad03ce4fc843b2e25680f2e59c1fd69bf",
               "build_file_content": "cc_library(\n    name = \"headers\",\n    hdrs = glob([\"**\"]),\n    includes = [\".\"],\n    visibility = [\"//visibility:public\"],\n)\n\nfilegroup(\n    name = \"header_files\",\n    srcs = glob([\"**\"]),\n    visibility = [\"//visibility:public\"],\n)\n"
             }
           },
           "bazelrio_org_photonvision_photontargeting-cpp_windowsx86-64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-windowsx86-64.zip",
-              "sha256": "a077bdb18c1dbff2c88e0a90bc1c15f1cd6e638289841ca9b25a8f48de7c8879",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2026.0.1-beta/photontargeting-cpp-v2026.0.1-beta-windowsx86-64.zip",
+              "sha256": "6d0ff2849b8fd15fcd64ac029ad9c9e749137d4f3782ca1a4c8879ce90058deb",
               "build_file": "@@bzlmodrio-photonlib+//private/cpp/photontargeting-cpp:shared.BUILD.bazel"
             }
           },
           "bazelrio_org_photonvision_photontargeting-cpp_linuxathena": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-linuxathena.zip",
-              "sha256": "d5b641d8c90dae44a79c16b94dd6f1f8aadafdd9f5b987deb6d8004883d21210",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2026.0.1-beta/photontargeting-cpp-v2026.0.1-beta-linuxathena.zip",
+              "sha256": "e3d6ffa7efb9d465c42978630a2df6cf74ab612a45aead03aee23efbb622a146",
               "build_file": "@@bzlmodrio-photonlib+//private/cpp/photontargeting-cpp:shared.BUILD.bazel"
             }
           },
           "bazelrio_org_photonvision_photontargeting-cpp_linuxx86-64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-linuxx86-64.zip",
-              "sha256": "eded7d93f2c2dffed348aec351d2116b5c0912e7e8cc43be60216f1ddc65a720",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2026.0.1-beta/photontargeting-cpp-v2026.0.1-beta-linuxx86-64.zip",
+              "sha256": "e107d0775f610f7319eb7b37a9d7f2855352a08dc574ccde99cc5888d3264bc8",
               "build_file": "@@bzlmodrio-photonlib+//private/cpp/photontargeting-cpp:shared.BUILD.bazel"
             }
           },
           "bazelrio_org_photonvision_photontargeting-cpp_osxuniversal": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
             "attributes": {
-              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2025.3.2/photontargeting-cpp-v2025.3.2-osxuniversal.zip",
-              "sha256": "8e02676aedd5d6561ea9b23958061d776d096698ef91137c8e028ea4198d2951",
+              "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-cpp/v2026.0.1-beta/photontargeting-cpp-v2026.0.1-beta-osxuniversal.zip",
+              "sha256": "8974f999d546b6296cefeec11bc51c31d6f68c9a3e10f32e7437d7e5258255c3",
               "build_file": "@@bzlmodrio-photonlib+//private/cpp/photontargeting-cpp:shared.BUILD.bazel",
               "patch_cmds": [
                 "install_name_tool -id @rpath/libphotontargeting.dylib osx/universal/shared/libphotontargeting.dylib",
@@ -5188,8 +5207,8 @@
     },
     "@@bzlmodrio-photonlib+//:maven_java_deps.bzl%setup_bzlmodrio_photonlib_java_dependencies": {
       "general": {
-        "bzlTransitiveDigest": "P0TBCCC0TPxTytSsjMS0woiaRwp7hBXbWXb7zDZqAJo=",
-        "usagesDigest": "D+L70AIO71UV9PP73HwY3wARf/XjFbOnQXTtmBU3V8g=",
+        "bzlTransitiveDigest": "oX+CI8xlqSund3TlG6NxeDAbYFBcPiP7QmhZSJaVNDc=",
+        "usagesDigest": "3whksZgxAsprl2LN9sOAuYDt+/GVCqoIBcldllE88Ww=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -5199,15 +5218,15 @@
             "attributes": {
               "generated_rule_name": "org_photonvision_photonlib_java",
               "artifact_urls": [
-                "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-java/v2025.3.2/photonlib-java-v2025.3.2.jar"
+                "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-java/v2026.0.1-beta/photonlib-java-v2026.0.1-beta.jar"
               ],
               "srcjar_urls": [],
-              "canonical_id": "org.photonvision:photonlib-java:v2025.3.2",
+              "canonical_id": "org.photonvision:photonlib-java:v2026.0.1-beta",
               "rule_name": "java_import",
               "tags": [
-                "maven_coordinates=org.photonvision:photonlib-java:v2025.3.2"
+                "maven_coordinates=org.photonvision:photonlib-java:v2026.0.1-beta"
               ],
-              "artifact_sha256": "7fd1f39c630c25fac52e1c7c5ecb99e063d09d8034ee6e67c0b6fb37095a6d47"
+              "artifact_sha256": "9ef89e5c189087beb2012b0b65e44abfd1c3ff04849fe6c5a9046f0d0e19a476"
             }
           },
           "org_photonvision_photontargeting_java": {
@@ -5215,15 +5234,15 @@
             "attributes": {
               "generated_rule_name": "org_photonvision_photontargeting_java",
               "artifact_urls": [
-                "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-java/v2025.3.2/photontargeting-java-v2025.3.2.jar"
+                "https://maven.photonvision.org/repository/internal/org/photonvision/photontargeting-java/v2026.0.1-beta/photontargeting-java-v2026.0.1-beta.jar"
               ],
               "srcjar_urls": [],
-              "canonical_id": "org.photonvision:photontargeting-java:v2025.3.2",
+              "canonical_id": "org.photonvision:photontargeting-java:v2026.0.1-beta",
               "rule_name": "java_import",
               "tags": [
-                "maven_coordinates=org.photonvision:photontargeting-java:v2025.3.2"
+                "maven_coordinates=org.photonvision:photontargeting-java:v2026.0.1-beta"
               ],
-              "artifact_sha256": "7d061d41f41f19a7e22dbf21017fe2c5d542b38ba0f16052dfe277e832f43785"
+              "artifact_sha256": "5eef64cfa651336eec335372005e07d43a79bca18c799a34fef2dbb00eaf65c1"
             }
           }
         },
@@ -5566,10 +5585,245 @@
         ]
       }
     },
+    "@@rules_python+//python/extensions:config.bzl%config": {
+      "general": {
+        "bzlTransitiveDigest": "eiSb8rvYtQxkHrv21QvQS7dfARy3jxXMfeNCo69m0xg=",
+        "usagesDigest": "ZVSXMAGpD+xzVNPuvF1IoLBkty7TROO0+akMapt1pAg=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "rules_python_internal": {
+            "repoRuleId": "@@rules_python+//python/private:internal_config_repo.bzl%internal_config_repo",
+            "attributes": {
+              "transition_setting_generators": {},
+              "transition_settings": []
+            }
+          },
+          "pypi__build": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/e2/03/f3c8ba0a6b6e30d7d18c40faab90807c9bb5e9a1e3b2fe2008af624a9c97/build-1.2.1-py3-none-any.whl",
+              "sha256": "75e10f767a433d9a86e50d83f418e83efc18ede923ee5ff7df93b6cb0306c5d4",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__click": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl",
+              "sha256": "ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__colorama": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl",
+              "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__importlib_metadata": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/2d/0a/679461c511447ffaf176567d5c496d1de27cbe34a87df6677d7171b2fbd4/importlib_metadata-7.1.0-py3-none-any.whl",
+              "sha256": "30962b96c0c223483ed6cc7280e7f0199feb01a0e40cfae4d4450fc6fab1f570",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__installer": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/e5/ca/1172b6638d52f2d6caa2dd262ec4c811ba59eee96d54a7701930726bce18/installer-0.7.0-py3-none-any.whl",
+              "sha256": "05d1933f0a5ba7d8d6296bb6d5018e7c94fa473ceb10cf198a92ccea19c27b53",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__more_itertools": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/50/e2/8e10e465ee3987bb7c9ab69efb91d867d93959095f4807db102d07995d94/more_itertools-10.2.0-py3-none-any.whl",
+              "sha256": "686b06abe565edfab151cb8fd385a05651e1fdf8f0a14191e4439283421f8684",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__packaging": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl",
+              "sha256": "2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__pep517": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/25/6e/ca4a5434eb0e502210f591b97537d322546e4833dcb4d470a48c375c5540/pep517-0.13.1-py3-none-any.whl",
+              "sha256": "31b206f67165b3536dd577c5c3f1518e8fbaf38cbc57efff8369a392feff1721",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__pip": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/8a/6a/19e9fe04fca059ccf770861c7d5721ab4c2aebc539889e97c7977528a53b/pip-24.0-py3-none-any.whl",
+              "sha256": "ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__pip_tools": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/0d/dc/38f4ce065e92c66f058ea7a368a9c5de4e702272b479c0992059f7693941/pip_tools-7.4.1-py3-none-any.whl",
+              "sha256": "4c690e5fbae2f21e87843e89c26191f0d9454f362d8acdbd695716493ec8b3a9",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__pyproject_hooks": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/ae/f3/431b9d5fe7d14af7a32340792ef43b8a714e7726f1d7b69cc4e8e7a3f1d7/pyproject_hooks-1.1.0-py3-none-any.whl",
+              "sha256": "7ceeefe9aec63a1064c18d939bdc3adf2d8aa1988a510afec15151578b232aa2",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__setuptools": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/90/99/158ad0609729111163fc1f674a5a42f2605371a4cf036d0441070e2f7455/setuptools-78.1.1-py3-none-any.whl",
+              "sha256": "c3a9c4211ff4c309edb8b8c4f1cbfa7ae324c4ba9f91ff254e3d305b9fd54561",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__tomli": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl",
+              "sha256": "939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__wheel": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/7d/cd/d7460c9a869b16c3dd4e1e403cce337df165368c71d6af229a74699622ce/wheel-0.43.0-py3-none-any.whl",
+              "sha256": "55c570405f142630c6b9f72fe09d9b67cf1477fcf543ae5b8dcb1f5b7377da81",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          },
+          "pypi__zipp": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://files.pythonhosted.org/packages/da/55/a03fd7240714916507e1fcf7ae355bd9d9ed2e6db492595f1a67f61681be/zipp-3.18.2-py3-none-any.whl",
+              "sha256": "dce197b859eb796242b0622af1b8beb0a722d52aa2f57133ead08edd5bf5374e",
+              "type": "zip",
+              "build_file_content": "package(default_visibility = [\"//visibility:public\"])\n\nload(\"@rules_python//python:py_library.bzl\", \"py_library\")\n\npy_library(\n    name = \"lib\",\n    srcs = glob([\"**/*.py\"]),\n    data = glob([\"**/*\"], exclude=[\n        # These entries include those put into user-installed dependencies by\n        # data_exclude to avoid non-determinism.\n        \"**/*.py\",\n        \"**/*.pyc\",\n        \"**/*.pyc.*\",  # During pyc creation, temp files named *.pyc.NNN are created\n        \"**/*.dist-info/RECORD\",\n        \"BUILD\",\n        \"WORKSPACE\",\n    ]),\n    # This makes this directory a top-level in the python import\n    # search path for anything that depends on this.\n    imports = [\".\"],\n)\n"
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "rules_python+",
+            "bazel_tools",
+            "bazel_tools"
+          ],
+          [
+            "rules_python+",
+            "pypi__build",
+            "rules_python++config+pypi__build"
+          ],
+          [
+            "rules_python+",
+            "pypi__click",
+            "rules_python++config+pypi__click"
+          ],
+          [
+            "rules_python+",
+            "pypi__colorama",
+            "rules_python++config+pypi__colorama"
+          ],
+          [
+            "rules_python+",
+            "pypi__importlib_metadata",
+            "rules_python++config+pypi__importlib_metadata"
+          ],
+          [
+            "rules_python+",
+            "pypi__installer",
+            "rules_python++config+pypi__installer"
+          ],
+          [
+            "rules_python+",
+            "pypi__more_itertools",
+            "rules_python++config+pypi__more_itertools"
+          ],
+          [
+            "rules_python+",
+            "pypi__packaging",
+            "rules_python++config+pypi__packaging"
+          ],
+          [
+            "rules_python+",
+            "pypi__pep517",
+            "rules_python++config+pypi__pep517"
+          ],
+          [
+            "rules_python+",
+            "pypi__pip",
+            "rules_python++config+pypi__pip"
+          ],
+          [
+            "rules_python+",
+            "pypi__pip_tools",
+            "rules_python++config+pypi__pip_tools"
+          ],
+          [
+            "rules_python+",
+            "pypi__pyproject_hooks",
+            "rules_python++config+pypi__pyproject_hooks"
+          ],
+          [
+            "rules_python+",
+            "pypi__setuptools",
+            "rules_python++config+pypi__setuptools"
+          ],
+          [
+            "rules_python+",
+            "pypi__tomli",
+            "rules_python++config+pypi__tomli"
+          ],
+          [
+            "rules_python+",
+            "pypi__wheel",
+            "rules_python++config+pypi__wheel"
+          ],
+          [
+            "rules_python+",
+            "pypi__zipp",
+            "rules_python++config+pypi__zipp"
+          ]
+        ]
+      }
+    },
     "@@rules_python+//python/uv:uv.bzl%uv": {
       "general": {
-        "bzlTransitiveDigest": "bGHlxez0Lkvq2VwrlfCLraKHiJIRHSIJb432X2+pky8=",
-        "usagesDigest": "pVak54OcqSLHO/i6ouAnfH3+L3yyJyDfUSx1i9yXbfY=",
+        "bzlTransitiveDigest": "85utVTiuGY4Ut0FgpNLZvwD42nCeVn+J4Cit6fSR5OM=",
+        "usagesDigest": "H8dQoNZcoqP+Mu0tHZTi4KHATzvNkM5ePuEqoQdklIU=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
