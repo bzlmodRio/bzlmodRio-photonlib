@@ -8,6 +8,7 @@ java_import(
         "@bzlmodrio-allwpilib//libraries/java/apriltag",
         "@bzlmodrio-allwpilib//libraries/java/ntcore",
         "@bzlmodrio-allwpilib//libraries/java/wpilibj",
+        "@bzlmodrio-photonlib//libraries/cpp/photonlib-cpp:jni",
         "@bzlmodrio-photonlib//libraries/java/photontargeting-java",
     ],
 )

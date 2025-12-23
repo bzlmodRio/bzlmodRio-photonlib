@@ -9,9 +9,9 @@ def get_photonlib_dependencies(
     use_local_allwpilib=False,
     use_local_opencv=False,
     use_local_ni=True,
-    allwpilib_version_override="2025.3.2.bcr1",
+    allwpilib_version_override="2026.1.1-beta-1",
     opencv_version_override="2025.4.10.0-3.bcr3",
-    ni_version_override="2025.2.0.bcr1",
+    ni_version_override="2026.1.0",
 ):
     SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -84,7 +84,9 @@ def get_photonlib_dependencies(
         ],
         platform_deps={},
         jni_deps={
-            # TODO
+            "//conditions:default": [
+                "photontargeting-cpp",
+            ]
         },
     )
 
@@ -104,6 +106,7 @@ def get_photonlib_dependencies(
             "ntcore-java",
             "apriltag-java",
             "photontargeting-java",
+            "photonlib-cpp",
         ],
     )
 

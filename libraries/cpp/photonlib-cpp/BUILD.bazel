@@ -19,3 +19,13 @@ cc_library(
         "@bzlmodrio-photonlib//private/cpp/photontargeting-cpp:shared",
     ],
 )
+
+cc_library(
+    name = "jni",
+    visibility = ["//visibility:public"],
+    deps = select({
+        "//conditions:default": [
+            "//private/cpp/photontargeting-cpp:shared",
+        ],
+    }),
+)
