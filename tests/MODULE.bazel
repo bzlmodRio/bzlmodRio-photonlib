@@ -11,8 +11,22 @@ bazel_dep(name = "rules_python", version = "1.7.0")
 bazel_dep(name = "rules_jvm_external", version = "6.8")
 bazel_dep(name = "rules_bazelrio", version = "0.0.14")
 bazel_dep(name = "rules_bzlmodrio_toolchains", version = "2025-2")
+single_version_override(
+    module_name = "rules_bzlmodrio_toolchains",
+    patch_strip = 1,
+    patches = ["//:toolchains.patch"],
+)
 bazel_dep(name = "bzlmodrio-allwpilib", version = "2027.0.0-alpha-6")
+local_path_override(
+    module_name = "bzlmodrio-allwpilib",
+    path = "/home/pjreiniger/git/bzlmodrio/monorepo/libraries/bzlmodRio-allwpilib",
+)
 bazel_dep(name = "bzlmodrio-opencv", version = "2027.4.13.0-3")
+single_version_override(
+    module_name = "bzlmodrio-opencv",
+    patch_strip = 1,
+    patches = ["//:opencv.patch"],
+)
 bazel_dep(name = "rules_pmd", version = "7.2.0.bcr1")
 bazel_dep(name = "rules_checkstyle", version = "10.12.2.bcr1")
 bazel_dep(name = "rules_wpiformat", version = "2026.57")
